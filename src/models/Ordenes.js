@@ -13,14 +13,16 @@ const Orden = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    fecha_de_solicitud:{
-        type: DataTypes.DATE,
-        defaultValue: DataTypes.NOW,
+    fecha_de_solicitud: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
     },
     id_productos: {
-      type: DataTypes.JSONB
+      allowNull: false,
+      type: DataTypes.JSONB,
     },
     id_usuario: {
+      allowNull: false,
       type: DataTypes.INTEGER,
       references: {
         model: "usuarios",

@@ -19,7 +19,6 @@ app.use("/car-compras", routerCarCompras);
 app.use('/ordenes', routerOrden)
 app.use('/ventas', routerVentas)
 
-
 app.listen(port, () => {
   console.log(`ejecutando en http://localhost:${port}`);
 });

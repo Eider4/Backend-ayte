@@ -7,8 +7,34 @@ const UsuariosGet = async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-};// http://localhost:1234/usuarios
+}; // http://localhost:1234/usuarios
+const UsuariosGetById = async (req, res) => {
+  const { id_usuario } = req.params;
+  try {
+    const usuario = await Usuario.findByPk(id_usuario);
+    if (!usuario) {
+      return res.status(404).json({ message: "Usuario no encontrado" });
+    }
+    res.json(usuario);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+}; //http://localhost:1234/usuarios/16
+const UsuariosGetByUid = async (req, res) => {
+  const { uid_usuario } = req.params;
+  try {
+    const usuario = await Usuario.findOne({
+      where: { uid_usuario },
+    });
 
+    if (!usuario) {
+      return res.status(404).json({ message: "Usuario no encontrado" });
+    }
+    res.json(usuario);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+}; //http://localhost:1234/usuarios/16
 const UsuariosPost = async (req, res) => {
   const {
     uid_usuario,
@@ -35,14 +61,11 @@ const UsuariosPost = async (req, res) => {
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
-};// http://localhost:1234/usuarios
-
+}; // http://localhost:1234/usuarios
 const UsuariosPut = async (req, res) => {
   const { id_usuario } = req.params;
   const {
-    uid_usuario,
     nombre,
-    correo,
     telefono,
     direccion,
     inf_adicional_direccion,
@@ -52,9 +75,7 @@ const UsuariosPut = async (req, res) => {
   try {
     const usuario = await Usuario.findByPk(id_usuario); // Cambiado de findAll() a findByPk()
     if (usuario) {
-      usuario.uid_usuario = uid_usuario;
       usuario.nombre = nombre;
-      usuario.correo = correo;
       usuario.telefono = telefono;
       usuario.direccion = direccion;
       usuario.inf_adicional_direccion = inf_adicional_direccion;
@@ -68,8 +89,7 @@ const UsuariosPut = async (req, res) => {
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
-};// http://localhost:1234/usuarios/1
-
+}; // http://localhost:1234/usuarios/1
 const UsuarioDelete = async (req, res) => {
   const { id_usuario } = req.params;
   try {
@@ -83,6 +103,13 @@ const UsuarioDelete = async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-};// http://localhost:1234/usuarios/4
+}; // http://localhost:1234/usuarios/4
 
-module.exports = { UsuariosGet, UsuariosPost, UsuariosPut, UsuarioDelete };
+module.exports = {
+  UsuariosGet,
+  UsuariosPost,
+  UsuariosPut,
+  UsuarioDelete,
+  UsuariosGetById,
+  UsuariosGetByUid,
+};

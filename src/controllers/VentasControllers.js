@@ -8,7 +8,15 @@ const VentasGet = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-
+const VentasGetById = async (req, res) => {
+  const { id_venta } = req.params;
+  try {
+    const venta = await Venta.findByPk(id_venta);
+    res.json(venta);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
 const VentasPost = async (req, res) => {
   const { id_orden, preciototal } = req.body;
   try {
@@ -19,4 +27,4 @@ const VentasPost = async (req, res) => {
   }
 };
 
-module.exports = { VentasGet, VentasPost };
+module.exports = { VentasGet, VentasPost, VentasGetById };
