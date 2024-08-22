@@ -9,18 +9,22 @@ const VentasGet = async (req, res) => {
   }
 };
 const VentasGetById = async (req, res) => {
-  const { id_venta } = req.params;
+  const { uuid_venta } = req.params;
   try {
-    const venta = await Venta.findByPk(id_venta);
+    const venta = await Venta.findByPk(uuid_venta);
     res.json(venta);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
 const VentasPost = async (req, res) => {
-  const { id_orden, preciototal } = req.body;
+  const { uuid_orden, preciototal, uuid_venta } = req.body;
   try {
-    const newVenta = await Venta.create({ id_orden, preciototal });
+    const newVenta = await Venta.create({
+      uuid_orden,
+      preciototal,
+      uuid_venta,
+    });
     res.status(201).json(newVenta);
   } catch (error) {
     res.status(400).json({ error: error.message });

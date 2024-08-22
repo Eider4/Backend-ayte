@@ -1,16 +1,14 @@
 const { sequelize } = require("../config/database");
 const { DataTypes } = require("sequelize");
+
 const Usuario = sequelize.define(
   "usuario",
   {
-    id_usuario: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
-      primaryKey: true,
-    },
     uid_usuario: {
       type: DataTypes.STRING(255),
       allowNull: false,
+      unique: true,
+      primaryKey: true,
     },
     nombre: {
       type: DataTypes.STRING(255),
@@ -36,7 +34,12 @@ const Usuario = sequelize.define(
     estado_de_cuenta: {
       type: DataTypes.BOOLEAN,
       allowNull: true,
-      defaultValue: "Activo", // Valor por defecto
+      defaultValue: true,
+    },
+    tipo_de_cuenta: {
+      type: DataTypes.BOOLEAN,
+      allowNull: true,
+      defaultValue: true,
     },
     alias: {
       type: DataTypes.STRING(50),
@@ -44,12 +47,12 @@ const Usuario = sequelize.define(
     },
     fecha_de_inicio: {
       type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW, // Valor por defecto
+      defaultValue: DataTypes.NOW,
     },
   },
   {
-    tableName: "usuarios", // Nombre de la tabla en la base de datos
-    timestamps: false, // Si no quieres que Sequelize maneje los campos de timestamps automáticamente (createdAt y updatedAt)
+    tableName: "usuarios",
+    timestamps: false,
   }
 );
 

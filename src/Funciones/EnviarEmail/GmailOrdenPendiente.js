@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-async function GmailOrdenAceptada(orden, newOrden) {
+async function GmailOrdenPendiente(orden, newOrden) {
   const { estado_de_orden, ProductosCompletos, Usuario: usuario } = orden;
 
   // Calcular el precio total
@@ -18,6 +18,7 @@ async function GmailOrdenAceptada(orden, newOrden) {
     (total, p) => total + p.price * p.cantidad,
     0
   );
+  console.log(usuario.correo);
 
   // Extraer datos de newOrden
   const { fecha_de_solicitud, uuid_orden } = newOrden.dataValues;
@@ -51,8 +52,8 @@ async function GmailOrdenAceptada(orden, newOrden) {
   ).join("");
 
   const info = await transporter.sendMail({
-    from: '"Eider Foo Koch 👻" <ProyectoAyteEider@outlook.com>',
-    to: "eiderurrego4@gmail.com",
+    from: '"Tu Tienda" <ProyectoAyteEider@outlook.com>',
+    to: usuario.correo,
     subject: "Detalles de la Orden",
     html: `
       <!DOCTYPE html>
@@ -172,10 +173,10 @@ async function GmailOrdenAceptada(orden, newOrden) {
             <p><strong>Correo:</strong> ${usuario.correo}</p>
             <p><strong>Teléfono:</strong> ${usuario.telefono}</p>
             <p><strong>Dirección:</strong> ${usuario.direccion} ${
-              usuario.inf_adicional_direccion
-                ? `(${usuario.inf_adicional_direccion})`
-                : ""
-            }</p>
+      usuario.inf_adicional_direccion
+        ? `(${usuario.inf_adicional_direccion})`
+        : ""
+    }</p>
           </div>
           <div class="order-info">
             <h2>Información de la Orden:</h2>
@@ -184,14 +185,15 @@ async function GmailOrdenAceptada(orden, newOrden) {
               fecha_de_solicitud
             ).toLocaleDateString()}</p>
           </div>
-          <a class="a" href="http://localhost:4759/aceptar-venta"><span style="color: #ffffff">Aceptar Venta</span></a>
-        </div>
-      </body>
-      </html>
-    `,
+          </div>
+          </body>
+          </html>
+          `,
   });
 
   console.log("Mensaje enviado: ", info.messageId);
 }
 
-module.exports = { GmailOrdenAceptada };
+module.exports = { GmailOrdenPendiente };
+
+// <a class="a" href="http://localhost:4759/aceptar-venta"><span style="color: #ffffff">Aceptar Venta</span></a>

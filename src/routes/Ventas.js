@@ -5,6 +5,6 @@ const router = express.Router()
 
 router.get('/', VentasGet)
 router.post('/', VentasPost)
-router.get('/:id_venta', VentasGetById)
+router.get('/:uuid_venta', VentasGetById)
 
 module.exports = router

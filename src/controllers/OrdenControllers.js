@@ -1,4 +1,6 @@
-const { GmailOrden } = require("../Funciones/EnviarEmail/EnviarEmailOrden");
+const {
+  GmailOrdenPendiente,
+} = require("../Funciones/EnviarEmail/GmailOrdenPendiente");
 const Orden = require("../models/Ordenes");
 
 const ordenGet = async (req, res) => {
@@ -10,45 +12,159 @@ const ordenGet = async (req, res) => {
   }
 };
 const ordenGetById = async (req, res) => {
-  const { id_orden } = req.params;
+  const { uuid_orden } = req.params;
   try {
-    const orden = await Orden.findByPk(id_orden);
+    const orden = await Orden.findByPk(uuid_orden);
     res.json(orden);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
 
+const ordenGetByIdUsuario = async (req, res) => {
+  const { uid_usuario } = req.params;
+  try {
+    const orden = await Orden.findAll({
+      where: { uid_usuario },
+    });
+    if (!orden) {
+      return res.status(404).json({ message: "Orden no encontrado" });
+    }
+    res.json(orden);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
+const ordenGetByIdUsuarioAndEstado = async (req, res) => {
+  const { uid_usuario, estado_de_orden } = req.params;
+  try {
+    const orden = await Orden.findAll({
+      where: {
+        uid_usuario,
+        estado_de_orden,
+      },
+    });
+    if (orden.length === 0) {
+      return res.status(404).json({ message: "Orden no encontrado" });
+    }
+    res.json(orden);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
+const ordenGetByIdUsuarioAndEstad= async (req, res) => {
+  const { uid_usuario, estado_de_orden } = req.params;
+
+  try {
+    const orden = await Orden.findAll({
+      where: {
+        uid_usuario,
+        estado_de_orden,
+      },
+    });
+
+    if (orden.length === 0) {
+      return res.status(404).json({ message: "Orden no encontrada" });
+    }
+
+    res.json(orden);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
+
+// http://localhost:1234/ordenes/id_u/46
+const ordenGetByEstado = async (req, res) => {
+  const { estado_de_orden } = req.params;
+  try {
+    const orden = await Orden.findAll({
+      where: { estado_de_orden },
+      order: [["fecha_de_solicitud", "DESC"]],
+    });
+    if (!orden) {
+      return res.status(404).json({ message: "Orden no encontrado" });
+    }
+    res.json(orden);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
 const ordenPost = async (req, res) => {
-  const { estado_de_orden, id_productos, id_usuario } = req.body;
+  const {
+    uuid_orden,
+    estado_de_orden,
+    id_productos,
+    uid_usuario,
+    direccion_id_usuario,
+  } = req.body;
+
   try {
     const newOrden = await Orden.create({
+      uuid_orden,
       estado_de_orden,
       id_productos,
-      id_usuario,
+      uid_usuario,
+      direccion_id_usuario,
     });
-    await GmailOrden(req.body).catch(console.error);
-    res.status(201).json({ message: "Orden creada y correo enviado.", orden: newOrden });
-    // res.status(201).json(newOrden);
+
+    await GmailOrdenPendiente(req.body, newOrden).catch(console.error);
+    await GmailOrdenPendiente(req.body, newOrden, "administrador").catch(
+      console.error
+    );
+    res
+      .status(201)
+      .json({ message: "Orden creada y correo enviado.", orden: newOrden });
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
 };
 const ordenPut = async (req, res) => {
-  const { id_orden } = req.params;
-  const { estado_de_orden, id_productos } = req.body;
+  const { uuid_orden } = req.params;
+  const { estado_de_orden, id_productos, direccion_id_usuario } = req.body;
   try {
-    const orden = await Orden.findByPk(id_orden);
+    const orden = await Orden.findByPk(uuid_orden);
+    if (estado_de_orden == 1) {
+      console.log("Aceptada");
+    }
+    if (estado_de_orden == 2) {
+      console.log("Eliminado");
+    }
     if (orden) {
       orden.estado_de_orden = estado_de_orden;
       orden.id_productos = id_productos;
+      orden.direccion_id_usuario = direccion_id_usuario;
       await orden.save();
       res.json(orden);
     } else {
       res.status(400).json({ error: "Orden no encontrado" });
     }
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    res.status(500).json({ error: error.message });
   }
 };
-module.exports = { ordenGet, ordenPost, ordenPut, ordenGetById };
+const ordenDelete = async (req, res) => {
+  const { uuid_orden } = req.params;
+  try {
+    const orden = await Orden.findByPk(uuid_orden);
+    if (orden) {
+      await orden.destroy();
+      console.log("orden eliminada");
+
+      res.json({ message: "orden eliminada" });
+    } else {
+      res.status(404).json({ error: "orden no encontrada" });
+    }
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+module.exports = {
+  ordenGet,
+  ordenPost,
+  ordenPut,
+  ordenGetById,
+  ordenGetByIdUsuario,
+  ordenGetByEstado,
+  ordenDelete,
+  ordenGetByIdUsuarioAndEstado,
+};

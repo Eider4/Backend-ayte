@@ -12,9 +12,9 @@ const router = express.Router();
 
 router.get("/", CarritoComprasGet);
 router.post("/", CarritoComprasPost);
-router.put("/:id_carrito", CarritoComprasPut);
-router.delete("/:id_carrito", CarritoComprasDelete);
-router.get("/:id_carrito", CarritoComprasGetById);
-router.get("/id_u/:id_usuario", CarritoComprasGetUsuario);
+router.get("/:uuid_carritocompras", CarritoComprasGetById);
+router.put("/:uuid_carritocompras", CarritoComprasPut);
+router.delete("/:uuid_carritocompras", CarritoComprasDelete);
+router.get("/id_u/:uid_usuario", CarritoComprasGetUsuario);
 
 module.exports = router;

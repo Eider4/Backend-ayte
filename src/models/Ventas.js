@@ -1,19 +1,21 @@
-const { DataTypes, DECIMAL } = require("sequelize");
+const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/database");
 
 const Venta = sequelize.define(
   "venta",
   {
-    id_venta: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
+    uuid_venta: {
+      type: DataTypes.STRING(100),
       primaryKey: true,
+      allowNull: false,
+      unique: true,
     },
-    id_orden: {
-      type: DataTypes.INTEGER,
+    uuid_orden: {
+      unique: true,
+      type: DataTypes.STRING(100), // Cambiado a STRING para coincidir con la tabla `ordenes`
       references: {
         model: "ordenes",
-        key: "id_orden",
+        key: "uuid_orden",
       },
       onDelete: "CASCADE",
     },

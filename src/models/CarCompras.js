@@ -4,20 +4,22 @@ const { sequelize } = require("../config/database");
 const CarritoCompras = sequelize.define(
   "CarCompras",
   {
-    id_carrito: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
+    uuid_carritocompras: {
+      type: DataTypes.STRING(100),
       primaryKey: true,
+      allowNull: false,
+      unique: true,
     },
     id_productos: {
       type: DataTypes.JSONB,
     },
-    id_usuario: {
-      type: DataTypes.INTEGER,
+    uid_usuario: {
+      type: DataTypes.STRING(255), // Asegúrate de que sea STRING como en la tabla `usuarios`
       allowNull: false,
+      unique: true,
       references: {
         model: "usuarios", // Nombre de la tabla en la base de datos
-        key: "id_usuario",
+        key: "uid_usuario",
       },
       onDelete: "CASCADE",
     },
