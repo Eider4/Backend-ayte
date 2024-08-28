@@ -37,9 +37,9 @@ const Usuario = sequelize.define(
       defaultValue: true,
     },
     tipo_de_cuenta: {
-      type: DataTypes.BOOLEAN,
+      type: DataTypes.INTEGER,
       allowNull: true,
-      defaultValue: true,
+      defaultValue: 0,
     },
     alias: {
       type: DataTypes.STRING(50),

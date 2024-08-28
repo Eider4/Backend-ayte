@@ -34,6 +34,7 @@ const UsuariosPost = async (req, res) => {
     direccion,
     inf_adicional_direccion,
     estado_de_cuenta,
+    tipo_de_cuenta,
     alias,
   } = req.body;
   try {
@@ -45,6 +46,7 @@ const UsuariosPost = async (req, res) => {
       direccion,
       inf_adicional_direccion,
       estado_de_cuenta,
+      tipo_de_cuenta,
       alias,
     });
     res.status(201).json(NewUsuario);
