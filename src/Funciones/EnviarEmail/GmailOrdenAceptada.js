@@ -1,28 +1,20 @@
-const nodemailer = require("nodemailer");
+const transporter = require("../../config/nodemailler");
+const usuario = require("../../models/Usuarios");
 
-const transporter = nodemailer.createTransport({
-  host: "smtp.office365.com",
-  port: 587,
-  secure: false, // true para el puerto 465, false para otros puertos
-  auth: {
-    user: "ProyectoAyteEider@outlook.com",
-    pass: "12345678ProyectoEider",
-  },
-});
+async function GmailOrdenAceptada(body, orden) {
+  const { Productos } = body;
+  const { uid_usuario } = orden;
+  const { dataValues: Usuario } = await usuario.findOne({
+    where: { uid_usuario },
+  });
+  console.log("Usuario", Usuario);
 
-async function GmailOrdenAceptada(orden, newOrden) {
-  const { estado_de_orden, ProductosCompletos, Usuario: usuario } = orden;
-
-  // Calcular el precio total
-  const totalPrice = ProductosCompletos.reduce(
+  const totalPrice = Productos.reduce(
     (total, p) => total + p.price * p.cantidad,
     0
   );
 
-  // Extraer datos de newOrden
-  const { fecha_de_solicitud, uuid_orden } = newOrden.dataValues;
-
-  const productList = ProductosCompletos.map(
+  const productList = Productos.map(
     (p) => `
       <tr>
         <td style="padding: 8px; vertical-align: top;">
@@ -51,16 +43,16 @@ async function GmailOrdenAceptada(orden, newOrden) {
   ).join("");
 
   const info = await transporter.sendMail({
-    from: '"Eider Foo Koch 👻" <ProyectoAyteEider@outlook.com>',
-    to: "eiderurrego4@gmail.com",
-    subject: "Detalles de la Orden",
+    from: '"Tu Tienda" <ProyectoAyteEider@outlook.com>',
+    to: Usuario.correo,
+    subject: "Orden Aceptada",
     html: `
       <!DOCTYPE html>
       <html lang="es">
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Detalles de la Orden</title>
+        <title>Orden Aceptada</title>
         <style>
           body {
             font-family: Arial, sans-serif;
@@ -81,7 +73,7 @@ async function GmailOrdenAceptada(orden, newOrden) {
           }
           h1 {
             font-size: 26px;
-            color: #2d3748;
+            color: #38a169;
             text-align: center;
             margin-bottom: 24px;
           }
@@ -107,7 +99,7 @@ async function GmailOrdenAceptada(orden, newOrden) {
             display: inline-block;
             font-size: 16px;
             color: #fff;
-            background-color: #3182ce;
+            background-color: #38a169;
             padding: 12px 24px;
             text-decoration: none;
             border-radius: 6px;
@@ -116,7 +108,7 @@ async function GmailOrdenAceptada(orden, newOrden) {
             font-weight: bold;
           }
           .a:hover {
-            background-color: #2b6cb0;
+            background-color: #2f855a;
           }
           .total-price-container {
             text-align: right;
@@ -124,11 +116,7 @@ async function GmailOrdenAceptada(orden, newOrden) {
             margin-top: 20px;
             padding-top: 20px;
             border-top: 2px solid #e2e8f0;
-            color: #e53e3e;
-            font-weight: bold;
-          }
-          .order-status {
-            color: ${estado_de_orden === 0 ? "#dd6b20" : "#38a169"};
+            color: #38a169;
             font-weight: bold;
           }
           .user-info {
@@ -153,10 +141,8 @@ async function GmailOrdenAceptada(orden, newOrden) {
       </head>
       <body>
         <div class="email-container">
-          <h1>Detalles de la Orden</h1>
-          <p><strong>Estado de la Orden:</strong> <span class="order-status">${
-            estado_de_orden === 0 ? "Pendiente" : "Completada"
-          }</span></p>
+          <h1>¡Tu Orden Ha Sido Aceptada!</h1>
+          <p>Nos complace informarte que tu orden ha sido aceptada. Aquí tienes el resumen de los productos:</p>
           <h2>Productos:</h2>
           <table>
             ${productList}
@@ -166,25 +152,17 @@ async function GmailOrdenAceptada(orden, newOrden) {
           </div>
           <div class="user-info">
             <h2>Información del Usuario:</h2>
-            <p><strong>ID de Usuario:</strong> ${usuario.uid_usuario}</p>
-            <p><strong>Nombre:</strong> ${usuario.nombre}</p>
-            <p><strong>Alias:</strong> ${usuario.alias}</p>
-            <p><strong>Correo:</strong> ${usuario.correo}</p>
-            <p><strong>Teléfono:</strong> ${usuario.telefono}</p>
-            <p><strong>Dirección:</strong> ${usuario.direccion} ${
-              usuario.inf_adicional_direccion
-                ? `(${usuario.inf_adicional_direccion})`
-                : ""
-            }</p>
+            <p><strong>ID de Usuario:</strong> ${Usuario.uid_usuario}</p>
+            <p><strong>Nombre:</strong> ${Usuario.nombre}</p>
+            <p><strong>Alias:</strong> ${Usuario.alias}</p>
+            <p><strong>Correo:</strong> ${Usuario.correo}</p>
+            <p><strong>Teléfono:</strong> ${Usuario.telefono}</p>
+            <p><strong>Dirección:</strong> ${Usuario.direccion} ${
+      Usuario.inf_adicional_direccion
+        ? `(${Usuario.inf_adicional_direccion})`
+        : ""
+    }</p>
           </div>
-          <div class="order-info">
-            <h2>Información de la Orden:</h2>
-            <p><strong>ID de Orden:</strong> ${uuid_orden}</p>
-            <p><strong>Fecha de Solicitud:</strong> ${new Date(
-              fecha_de_solicitud
-            ).toLocaleDateString()}</p>
-          </div>
-          <a class="a" href="http://localhost:4759/aceptar-venta"><span style="color: #ffffff">Aceptar Venta</span></a>
         </div>
       </body>
       </html>

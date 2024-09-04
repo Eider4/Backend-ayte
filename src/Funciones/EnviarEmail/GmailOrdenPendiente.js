@@ -1,26 +1,13 @@
-const nodemailer = require("nodemailer");
-
-const transporter = nodemailer.createTransport({
-  host: "smtp.office365.com",
-  port: 587,
-  secure: false, // true para el puerto 465, false para otros puertos
-  auth: {
-    user: "ProyectoAyteEider@outlook.com",
-    pass: "12345678ProyectoEider",
-  },
-});
+const transporter = require("../../config/nodemailler");
 
 async function GmailOrdenPendiente(orden, newOrden) {
   const { estado_de_orden, ProductosCompletos, Usuario: usuario } = orden;
 
-  // Calcular el precio total
   const totalPrice = ProductosCompletos.reduce(
     (total, p) => total + p.price * p.cantidad,
     0
   );
-  console.log(usuario.correo);
 
-  // Extraer datos de newOrden
   const { fecha_de_solicitud, uuid_orden } = newOrden.dataValues;
 
   const productList = ProductosCompletos.map(
@@ -54,7 +41,7 @@ async function GmailOrdenPendiente(orden, newOrden) {
   const info = await transporter.sendMail({
     from: '"Tu Tienda" <ProyectoAyteEider@outlook.com>',
     to: usuario.correo,
-    subject: "Detalles de la Orden",
+    subject: "Orden pendiente",
     html: `
       <!DOCTYPE html>
       <html lang="es">
@@ -196,4 +183,3 @@ async function GmailOrdenPendiente(orden, newOrden) {
 
 module.exports = { GmailOrdenPendiente };
 
-// <a class="a" href="http://localhost:4759/aceptar-venta"><span style="color: #ffffff">Aceptar Venta</span></a>

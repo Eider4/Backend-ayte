@@ -1,6 +1,12 @@
 const {
+  GmailOrdenAceptada,
+} = require("../Funciones/EnviarEmail/GmailOrdenAceptada");
+const {
   GmailOrdenPendiente,
 } = require("../Funciones/EnviarEmail/GmailOrdenPendiente");
+const {
+  GmailOrdenRechazada,
+} = require("../Funciones/EnviarEmail/GmailOrdenRechazada");
 const Orden = require("../models/Ordenes");
 
 const ordenGet = async (req, res) => {
@@ -52,7 +58,7 @@ const ordenGetByIdUsuarioAndEstado = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const ordenGetByIdUsuarioAndEstad= async (req, res) => {
+const ordenGetByIdUsuarioAndEstad = async (req, res) => {
   const { uid_usuario, estado_de_orden } = req.params;
 
   try {
@@ -118,15 +124,24 @@ const ordenPost = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
+// 0 - Pendiente: El pedido ha sido creado, pero no ha sido procesado.
+// 1 - acepatado: El pedido está siendo procesado o preparado.
+// 2 - Rechazado: El pedido ha sido Rechazado por el vendedor.
+
 const ordenPut = async (req, res) => {
   const { uuid_orden } = req.params;
   const { estado_de_orden, id_productos, direccion_id_usuario } = req.body;
+  console.log(req.body);
   try {
     const orden = await Orden.findByPk(uuid_orden);
+    console.log(orden.dataValues.uid_usuario);
+
     if (estado_de_orden == 1) {
+      GmailOrdenAceptada(req.body, orden.dataValues);
       console.log("Aceptada");
     }
     if (estado_de_orden == 2) {
+      GmailOrdenRechazada(req.body, orden.dataValues);
       console.log("Eliminado");
     }
     if (orden) {

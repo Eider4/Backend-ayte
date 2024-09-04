@@ -1,4 +1,29 @@
+const {EnviarEmailVerificacion} = require("../Funciones/EnviarEmail/EnviarEmailVerificacion");
+const {enviarCodigoAccesoAdministrador} = require("../Funciones/EnviarEmail/EnviarEmailVerificacionAdministrador");
 const Usuario = require("../models/Usuarios");
+
+const enviarCorreoVerificacion = (req, res) => {
+  try {
+    const { correo, codigo, nombre } = req.body;
+    console.log(req.body);
+    EnviarEmailVerificacion(correo, codigo, nombre);
+
+  } catch (error) {
+    console.log("error al enviar correo de verificacion");
+    res.status(500).json({ error: error.message });
+  }
+};
+const EnviarCodigoAccesoAdministrador = (req, res) => {
+  try {
+    const { codigo } = req.body;
+    console.log(req.body);
+    enviarCodigoAccesoAdministrador(codigo);
+
+  } catch (error) {
+    console.log("error al enviar correo de verificacion de administracion");
+    res.status(500).json({ error: error.message });
+  }
+};
 
 const UsuariosGet = async (req, res) => {
   try {
@@ -103,4 +128,6 @@ module.exports = {
   UsuariosPut,
   UsuarioDelete,
   UsuariosGetByUid,
+  enviarCorreoVerificacion,
+  EnviarCodigoAccesoAdministrador,
 };
