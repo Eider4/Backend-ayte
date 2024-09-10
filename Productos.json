@@ -1,1295 +1,1293 @@
-{
-  "productos": [
-    {
-      "id": 1,
-      "title": "Mochila para uso diario y paseos por el bosque",
-      "description": "Tu mochila perfecta para uso diario y paseos por el bosque. Con un diseño robusto y elegante, esta mochila cuenta con múltiples compartimentos que facilitan la organización de tus pertenencias. Guarda tu laptop (hasta 15 pulgadas) en el compartimento acolchado, asegurando la máxima protección durante tus desplazamientos. Ideal para estudiantes, profesionales o aventureros que necesitan una solución versátil y resistente para el día a día.",
-      "price": 109.95,
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "RATING": 3.9,
-      "rating": {
-        "rate": 3.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 2,
-      "title": "Camisa ajustada con manga larga y botón",
-      "description": "Estilo ajustado con manga larga y contraste de colores que le da un toque moderno. Cuenta con una botonera de tres botones que añade un detalle elegante, mientras que el tejido ligero y suave garantiza una comodidad transpirable durante todo el día. Estas camisas sólidas con cuello redondo están diseñadas para brindar durabilidad y un ajuste perfecto, convirtiéndolas en una opción ideal para la moda casual con un toque refinado.",
-      "price": 22.3,
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-      "RATING": 4.1,
-      "rating": {
-        "rate": 4.1,
-        "count": 120
-      }
-    },
-    {
-      "id": 3,
-      "title": "Chaqueta exterior para primavera/otoño/invierno",
-      "description": "Chaqueta exterior perfecta para primavera, otoño e invierno, diseñada para ofrecer calidez y confort en condiciones climáticas variadas. Fabricada con materiales de alta calidad que aseguran durabilidad, es adecuada para diversas actividades como trabajo, senderismo, acampada, escalada, ciclismo, viajes o cualquier actividad al aire libre. Un regalo ideal para ti o un ser querido que disfruta de la vida al aire libre.",
-      "price": 55.99,
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 4,
-      "title": "Camiseta básica con variación de color",
-      "description": "El color del producto puede variar ligeramente debido a las diferencias en la calibración de las pantallas, lo que es común en las compras en línea. Además, las proporciones corporales varían entre personas, por lo que te recomendamos revisar la tabla de tallas detallada a continuación en la descripción del producto para garantizar un ajuste perfecto y evitar decepciones.",
-      "price": 15.99,
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-      "RATING": 2.1,
-      "rating": {
-        "rate": 2.1,
-        "count": 120
-      }
-    },
-    {
-      "id": 5,
-      "title": "Joya Naga inspirada en el dragón acuático",
-      "description": "De nuestra exclusiva colección Legends, el Naga se inspira en el majestuoso dragón acuático de la mitología que protege la perla del océano. Esta pulsera única está diseñada con detalles intrincados que representan el poder y la sabiduría del Naga. Úsala hacia adentro para atraer amor y abundancia, o hacia afuera para protección. Un accesorio que no solo es una joya, sino también un símbolo de fuerza y protección.",
-      "price": 695,
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 6,
-      "title": "Joya con garantía de devolución de 30 días",
-      "description": "Estamos comprometidos con tu satisfacción. Por eso, ofrecemos una política de devolución o cambio sin complicaciones dentro de los 30 días posteriores a tu compra. Diseñado y vendido exclusivamente por Hafeez Center en EE.UU., cada artículo es fabricado con los más altos estándares de calidad. Si no estás completamente satisfecho, puedes devolver o cambiar tu pedido dentro de los 30 días, sin preguntas.",
-      "price": 168,
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-      "RATING": 3.9,
-      "rating": {
-        "rate": 3.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 7,
-      "title": "Anillo de compromiso con diamante solitario",
-      "description": "Este anillo de compromiso clásico con un diamante solitario es la elección perfecta para ella. Diseñado para simbolizar el amor eterno, es un regalo ideal para ocasiones especiales como compromisos, bodas, aniversarios, o el Día de San Valentín. Su diseño elegante y atemporal asegura que será un tesoro preciado por siempre.",
-      "price": 9.99,
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-      "RATING": 3,
-      "rating": {
-        "rate": 3,
-        "count": 120
-      }
-    },
-    {
-      "id": 8,
-      "title": "Pendientes de doble túnel en oro rosa",
-      "description": "Pendientes de doble túnel con un elegante acabado en oro rosa, que combina estilo y durabilidad. Fabricados en acero inoxidable 316L de alta calidad, estos pendientes son resistentes a la corrosión y al desgaste, lo que los convierte en una opción duradera y sofisticada para cualquier ocasión.",
-      "price": 10.99,
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-      "RATING": 4.2,
-      "rating": {
-        "rate": 4.2,
-        "count": 120
-      }
-    },
-    {
-      "id": 9,
-      "title": "Zapatillas deportivas Nike Air Max",
-      "description": "Las zapatillas deportivas Nike Air Max son sinónimo de confort y rendimiento. Diseñadas con una tecnología de amortiguación de aire visible que ofrece una comodidad excepcional, estas zapatillas son ideales tanto para entrenamientos intensos como para el uso diario. Su diseño versátil y moderno las convierte en una pieza esencial en cualquier armario, fusionando estilo y funcionalidad.",
-      "price": 120,
-      "category": "men's clothing",
-      "image": "https://static.nike.com/a/images/t_default/38591bdf-b510-40d1-8887-c1e39c1e1987/AIR+MAX+90.png",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 10,
-      "title": "Gafas de sol con protección UV",
-      "description": "Gafas de sol con un diseño clásico y atemporal que nunca pasa de moda. Equipadas con lentes polarizados de alta calidad que reducen el deslumbramiento y ofrecen una visión nítida, estas gafas no solo protegen tus ojos de los dañinos rayos UV, sino que también elevan tu estilo en los días soleados. Ideales para cualquier actividad al aire libre, combinan elegancia y protección en un solo accesorio.",
-      "price": 45,
-      "category": "women's clothing",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6_p3AEsSb_uHpkxb3m98f_vMtk3tSBUyaiA&s",
-      "RATING": 4.0,
-      "rating": {
-        "rate": 4.0,
-        "count": 120
-      }
-    },
-    {
-      "id": 11,
-      "title": "Auriculares inalámbricos con cancelación de ruido",
-      "description": "Auriculares inalámbricos con cancelación de ruido y batería de larga duración. Equipados con micrófono para llamadas claras y controles táctiles para la reproducción de música.",
-      "price": 89.99,
-      "category": "electronics",
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/10957394/auriculares-inalambricos-con-cancelacion-de-ruido.jpg?v=637731960963700000",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 12,
-      "title": "Reloj elegante con correa de cuero genuino",
-      "description": "Reloj elegante con correa de cuero genuino y esfera de acero inoxidable. Resistente al agua y con función de cronómetro.",
-      "price": 199.99,
-      "category": "jewelery",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_695412-CBT49465087242_032022-O.webp",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 13,
-      "title": "Teléfono inteligente con pantalla AMOLED",
-      "description": "La última versión del teléfono inteligente con pantalla AMOLED, cámara de alta resolución y procesador de última generación. Ideal para usuarios exigentes.",
-      "price": 799,
-      "category": "electronics",
-      "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/legacy_bdt/1540-1.jpeg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 14,
-      "title": "Cámara digital compacta con zoom óptico",
-      "description": "Cámara digital compacta con zoom óptico de 10x y grabación de video en 4K. Ideal para fotógrafos aficionados y profesionales.",
-      "price": 499,
-      "category": "electronics",
-      "image": "https://www.sony.com.co/image/27eab30495f592aa158f115cb3ba82fe?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9",
-      "RATING": 4.3,
-      "rating": {
-        "rate": 4.3,
-        "count": 120
-      }
-    },
-    {
-      "id": 15,
-      "title": "Laptop ultradelgada con pantalla de 15 pulgadas",
-      "description": "Laptop ultradelgada con pantalla de 15 pulgadas, procesador Intel i7, 16GB de RAM y 512GB de SSD. Ideal para profesionales y estudiantes.",
-      "price": 1299,
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71ehzrGUO7L._AC_SL1500_.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 16,
-      "title": "Altavoces Bluetooth portátiles con sonido estéreo",
-      "description": "Altavoces Bluetooth portátiles con sonido estéreo de alta calidad y batería de larga duración. Resistente al agua y con conectividad rápida.",
-      "price": 79.99,
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_712529-MLU74108811914_012024-O.webp",
-      "RATING": 4.4,
-      "rating": {
-        "rate": 4.4,
-        "count": 120
-      }
-    },
-    {
-      "id": 17,
-      "title": "Cartera de cuero genuino con múltiples compartimentos",
-      "description": "Cartera de cuero genuino con múltiples compartimentos y cierre de seguridad. Diseño elegante y funcional para uso diario.",
-      "price": 89.99,
-      "category": "men's clothing",
-      "image": "https://m.media-amazon.com/images/I/91QWHxrSnES._AC_UL1500_.jpg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 18,
-      "title": "Tablet con pantalla de 10 pulgadas y soporte para stylus",
-      "description": "Tablet con pantalla de 10 pulgadas, 64GB de almacenamiento y soporte para stylus. Ideal para estudiantes y profesionales.",
-      "price": 299,
-      "category": "electronics",
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2020/05/samsung-galaxy-s8-tablet.jpg?x=480&quality=40",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 19,
-      "title": "Auriculares Bluetooth Noise-Cancelling",
-      "description": "Este smartwatch combina estilo y funcionalidad, equipado con GPS integrado para un seguimiento preciso de tus rutas y un monitor de frecuencia cardíaca que te ayuda a mantenerte en tu zona de ejercicio óptima. Perfecto para deportistas y entusiastas del fitness, el reloj ofrece métricas detalladas sobre tus entrenamientos, sueño y actividad diaria. Con un diseño elegante y resistente al agua, es ideal tanto para el uso diario como para actividades al aire libre. Además, su batería de larga duración te permite usarlo durante días sin preocuparte por recargarlo constantemente.",
-      "price": 149.99,
-      "category": "electronics",
-      "image": "https://f.fcdn.app/imgs/ecd8f6/aiwa.com.uy/aiwauy/26fa/original/catalogo/AW-ANC45F_AW-ANC45F_1/2000-2000/auriculares-bluetooth-noise-cancelling-aw-anc45f-auriculares-bluetooth-noise-cancelling-aw-anc45f.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 20,
-      "title": "Smartwatch con GPS y Monitor de Frecuencia Cardíaca",
-      "description": "Set de cuchillos de cocina de acero inoxidable con mangos ergonómicos. Incluye cuchillo chef, cuchillo para pan y cuchillo para verduras.",
-      "price": 99.99,
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71sb25zbxeL._AC_SL1500_.jpg",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 21,
-      "title": "Auriculares inalámbricos con cancelación de ruido activa",
-      "description": "Auriculares inalámbricos con cancelación de ruido activa y micrófono integrado. Ideal para escuchar música en alta calidad y realizar llamadas.",
-      "price": 129.99,
-      "category": "electronics",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/132240679_01/w=800,h=800,fit=pad",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 22,
-      "title": "Reloj inteligente con monitor de frecuencia cardíaca",
-      "description": "Reloj inteligente con monitor de frecuencia cardíaca, GPS integrado y resistencia al agua. Ideal para seguimiento de actividad física y notificaciones.",
-      "price": 199.99,
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_666420-CBT74694587380_022024-T.webp",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 23,
-      "title": "Zapatillas deportivas con amortiguación",
-      "description": "Zapatillas deportivas con amortiguación de alta calidad y diseño transpirable. Perfectas para correr o entrenar.",
-      "price": 109.99,
-      "category": "men's clothing",
-      "image": "https://static.runnea.com/images/202311/zapatillas-running-maraton-on-cloudeclipse-800x800x80.jpg?1",
-      "RATING": 4.4,
-      "rating": {
-        "rate": 4.4,
-        "count": 120
-      }
-    },
-    {
-      "id": 24,
-      "title": "Camisa de algodón de manga corta",
-      "description": "Camisa de algodón de manga corta con diseño casual y corte moderno. Ideal para el verano y ocasiones informales.",
-      "price": 39.99,
-      "category": "men's clothing",
-      "image": "https://allbaute.com/cdn/shop/products/00209_0e7a8ce1-2e29-48f6-b6df-37fbf1e3f9c3.png?v=1681401526",
-      "RATING": 4.3,
-      "rating": {
-        "rate": 4.3,
-        "count": 120
-      }
-    },
-    {
-      "id": 25,
-      "title": "Silla ergonómica de oficina",
-      "description": "Silla ergonómica de oficina con soporte lumbar ajustable y reposabrazos acolchados. Ideal para largas jornadas de trabajo.",
-      "price": 249.99,
-      "category": "electronics",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/118562847_01/w=800,h=800,fit=pad",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 26,
-      "title": "Laptop de 15.6 pulgadas con procesador Intel i7",
-      "description": "Laptop de 15.6 pulgadas con procesador Intel i7, 16GB de RAM y 512GB SSD. Ideal para trabajo y entretenimiento.",
-      "price": 999.99,
-      "category": "electronics",
-      "image": "https://exitocol.vteximg.com.br/arquivos/ids/15994752/Portatil-HP-Intel-Core-i7-1255U-12-GB-512-GB-SSD-15-dy5010la-3256561_a.jpg",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 27,
-      "title": "Cámara digital compacta",
-      "description": "Cámara digital compacta con 20MP de resolución, zoom óptico de 10x y grabación de video en Full HD.",
-      "price": 349.99,
-      "category": "electronics",
-      "image": "https://www.photolari.com/wp-content/uploads/2023/01/kodak-compacta-2005.jpg",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 28,
-      "title": "Consola de videojuegos de última generación",
-      "description": "Consola de videojuegos de última generación con capacidad para juegos en 4K, incluye un control y un juego de ejemplo.",
-      "price": 499.99,
-      "category": "electronics",
-      "image": "https://assets.xboxservices.com/assets/34/72/34728a56-e88e-409d-9e6f-1e89aa82b25f.png?n=Console-Hub_Content-Placement-0_SeriesS-Duo_740x555.png",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 29,
-      "title": "Par de zapatos de cuero para hombres",
-      "description": "Par de zapatos de cuero para hombres, con diseño clásico y suela de goma antideslizante.",
-      "price": 89.99,
-      "category": "men's clothing",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_957744-MCO47059589982_082021-O.webp",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 30,
-      "title": "Chaqueta de invierno para mujeres",
-      "description": "Chaqueta de invierno para mujeres con aislamiento térmico y diseño impermeable. Mantiene el calor y resiste la lluvia.",
-      "price": 129.99,
-      "category": "women's clothing",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_621249-CBT53919268237_022023-O.webp",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 31,
-      "title": "Auriculares bluetooth con sonido envolvente",
-      "description": "Auriculares bluetooth con sonido envolvente y batería de larga duración. Incluye estuche de carga y cables.",
-      "price": 89.99,
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_958078-CBT75664480211_042024-O.webp",
-      "RATING": 4.4,
-      "rating": {
-        "rate": 4.4,
-        "count": 120
-      }
-    },
-    {
-      "id": 32,
-      "title": "Televisor LED de 55 pulgadas",
-      "description": "Televisor LED de 55 pulgadas con resolución 4K y función Smart TV. Incluye control remoto y soporte.",
-      "price": 749.99,
-      "category": "electronics",
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/22566577/Televisor-LG-55-Pulgadas-LED-Uhd-4K-Smart-TV-55UR8750PSAAWC-3382701_b.jpg?v=638489659603700000",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 33,
-      "title": "Cafetera de cápsulas con función de espumador de leche",
-      "description": "Cafetera de cápsulas con función de espumador de leche y programas automáticos de preparación. Ideal para café y capuchinos.",
-      "price": 149.99,
-      "category": "electronics",
-      "image": "https://osterla.vteximg.com.br/arquivos/ids/158602-700-700/BVSTDC02-2.jpg?v=638128514734730000/",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 34,
-      "title": "Reloj inteligente con monitoreo de frecuencia cardíaca",
-      "description": "Reloj inteligente con monitoreo de frecuencia cardíaca, GPS y notificaciones de smartphone. Compatible con iOS y Android.",
-      "price": 199.99,
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_727194-CBT74597425451_022024-O.webp",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 35,
-      "title": "Hidratante facial con vitamina C y ácido hialurónico",
-      "description": "Hidratante facial con vitamina C y ácido hialurónico. Fórmula ligera y no grasa para todos los tipos de piel.",
-      "price": 29.99,
-      "category": "women's clothing",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_625938-MCO44689540876_012021-O.webp",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 36,
-      "title": "Par de auriculares con cancelación de ruido activa",
-      "description": "Par de auriculares con cancelación de ruido activa y conectividad bluetooth. Incluye estuche de carga.",
-      "price": 129.99,
-      "category": "electronics",
-      "image": "https://cdn.cloudbf.com/thumb/format/mini_xsize/upfile/130/product_o/Active-Noise-Cancelling-Wireless-Headphone-HEP-0146.jpg.webp",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 37,
-      "title": "Chaqueta impermeable de alta visibilidad",
-      "description": "Chaqueta impermeable de alta visibilidad con reflectores y capucha ajustable. Ideal para condiciones meteorológicas adversas.",
-      "price": 79.99,
-      "category": "men's clothing",
-      "image": "https://cdn11.bigcommerce.com/s-f4083/images/stencil/1280x1280/products/178019/265484/418gPlGXWuL__50736.1662678208.jpg?c=2",
-      "RATING": 4.4,
-      "rating": {
-        "rate": 4.4,
-        "count": 120
-      }
-    },
-    {
-      "id": 38,
-      "title": "Ropa de cama de algodón orgánico con diseño de flores",
-      "description": "Ropa de cama de algodón orgánico con diseño de flores. Incluye funda de almohada, sábana y funda nórdica.",
-      "price": 99.99,
-      "category": "women's clothing",
-      "image": "https://m.media-amazon.com/images/I/81W+tUywkqL._AC_UF894,1000_QL80_.jpg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 39,
-      "title": "Mesa de comedor de madera de roble",
-      "description": "Mesa de comedor de madera de roble con acabado natural. Ideal para espacios modernos y elegantes.",
-      "price": 399.99,
-      "category": "women's clothing",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/125105516_01/w=800,h=800,fit=pad",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 40,
-      "title": "Lámpara LED de mesa BrightLight",
-      "description": "Lámpara de mesa LED con ajuste de brillo y color. Ideal para oficina o dormitorio.",
-      "price": 59.99,
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_989330-CBT75917994160_042024-O.webp",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 41,
-      "title": "Smartwatch Pro",
-      "price": 299.99,
-      "description": "Reloj inteligente con monitor de salud, GPS y notificaciones de smartphone.",
-      "category": "electronics",
-      "image": "https://dcdn.mitiendanube.com/stores/001/068/912/products/6cbb728945d856ad96a2779c401553b1d87cd902_original-11-4e41700b160695217e16952185492703-1024-1024.jpeg"
-    },
-    {
-      "id": 42,
-      "title": "Silla Ergonomica",
-      "price": 249.99,
-      "description": "Silla de oficina con soporte lumbar ajustable y reposabrazos.",
-      "category": "men's clothing",
-      "image": "https://virtualmuebles.com/cdn/shop/products/6153ok0QoTL._AC_SL1500.jpg?v=1700166502&width=1445"
-    },
-    {
-      "id": 43,
-      "title": "Auriculares Bluetooth X100",
-      "price": 149.99,
-      "description": "Auriculares inalámbricos con cancelación de ruido y hasta 20 horas de batería.",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/61g+MrOKdcL.jpg"
-    },
-    {
-      "id": 44,
-      "title": "Smartphone Z8",
-      "price": 799.99,
-      "description": "Teléfono móvil con pantalla AMOLED de 6.5”, 128GB de almacenamiento y cámara triple de 64MP.",
-      "category": "electronics",
-      "image": "https://co.celulares.com/fotos/nuu-mobile-z8-2-66166-g-alt.jpg"
-    },
-    {
-      "id": 45,
-      "title": "Cafetera Espresso Deluxe",
-      "price": 199.99,
-      "description": "Cafetera de espresso con capacidad para 12 tazas y función de vapor.",
-      "category": "electronics",
-      "image": "https://usaelectrodomesticos.com.co/wp-content/uploads/2022/06/dedica-deluxe_Mesa-de-trabajo-1.png"
-    },
-    {
-      "id": 46,
-      "title": "Camisa Casual de Algodón",
-      "price": 49.99,
-      "description": "Camisa de algodón 100% con diseño casual y ajuste moderno.",
-      "category": "men's clothing",
-      "image": "https://www.camiseriainglesa.com/cdn/shop/files/11855_Camisa_Casual_100_Algodon_1_a549f03f-dd7b-439a-98c3-129d85749bbb.webp?v=1715784506&width=900"
-    },
-    {
-      "id": 47,
-      "title": "Zapatos Deportivos UltraLite",
-      "price": 89.99,
-      "description": "Zapatos deportivos ligeros con soporte para el arco y suela antideslizante.",
-      "category": "men's clothing",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/129948849_01/w=800,h=800,fit=pad"
-    },
-    {
-      "id": 48,
-      "title": "Juego de Sábanas de Seda",
-      "price": 129.99,
-      "description": "Juego de sábanas de seda con 4 piezas, incluye fundas de almohada y cobertor.",
-      "category": "women's clothing",
-      "image": "https://biosmedic.com/wp-content/uploads/2023/08/dacron.png"
-    },
-    {
-      "id": 49,
-      "title": "Cámara de Seguridad IP",
-      "price": 119.99,
-      "description": "Cámara de seguridad con visión nocturna, detección de movimiento y acceso remoto.",
-      "category": "electronics",
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/967827/Camara-de-Seguridad-IP-WIFI-1080-3-Antenas.jpg?v=637110544590000000"
-    },
-    {
-      "id": 50,
-      "title": "Mesa de Centro de Vidrio",
-      "price": 229.99,
-      "description": "Mesa de centro con superficie de vidrio templado y base de madera sólida.",
-      "category": "women's clothing",
-      "image": "https://ambienta.com.co/wp-content/uploads/2020/10/MESA-DE-CENTRO-SEUL-1.jpg"
-    },
-    {
-      "id": 51,
-      "title": "Reloj de Pulsera Clásico",
-      "price": 179.99,
-      "description": "Reloj de pulsera con correa de cuero genuino y caja de acero inoxidable.",
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_779952-MLU69599848408_052023-O.webp"
-    },
-    {
-      "id": 52,
-      "title": "Mochila de Viaje Resistente",
-      "price": 89.99,
-      "description": "Mochila de viaje con múltiples compartimentos y sistema de ventilación.",
-      "category": "women's clothing",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_827679-MLU73304686812_122023-O.webp"
-    },
-    {
-      "id": 53,
-      "title": "Juego de Herramientas de Jardinería",
-      "price": 59.99,
-      "description": "Juego de herramientas de jardinería de 5 piezas con mango ergonómico.",
-      "category": "men's clothing",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacCO/522599/public"
-    },
-    {
-      "id": 54,
-      "title": "Chaqueta Impermeable",
-      "price": 99.99,
-      "description": "Chaqueta impermeable con capucha y costuras selladas para protección contra la lluvia.",
-      "category": "men's clothing",
-      "image": "https://kamaleonbiker.com/wp-content/uploads/2023/09/Chaqueta-1-1.jpg"
-    },
-    {
-      "id": 55,
-      "title": "Lámpara de Escritorio LED",
-      "price": 79.99,
-      "description": "Lámpara de escritorio con luz LED regulable y base ajustable.",
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_770268-MLU69767759042_062023-O.webp"
-    },
-    {
-      "id": 56,
-      "title": "Cámara de Acción 4K",
-      "price": 249.99,
-      "category": "electronics",
-      "description": "Esta cámara de acción 4K es ideal para capturar vídeos y fotos de alta calidad durante tus aventuras. Con una resolución 4K y resistencia a condiciones extremas, es perfecta para grabar deportes extremos, viajes y cualquier actividad al aire libre. Su diseño compacto y robusto la hace resistente al agua y a golpes. Incluye varios modos de grabación y una batería de larga duración.",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_704109-MCO31050812176_062019-O.webp"
-    },
-    {
-      "id": 57,
-      "title": "Tostadora de Pan",
-      "price": 59.99,
-      "description": "Tostadora de pan con capacidad para 4 rebanadas y controles de temperatura.",
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_913367-MLC46627999757_072021-O.webp"
-    },
-    {
-      "id": 58,
-      "title": "Juguete Educativo para Niños",
-      "price": 34.99,
-      "description": "Juguete educativo con actividades interactivas para el desarrollo infantil.",
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_666682-MCO72925398863_112023-E.webp"
-    },
-    {
-      "id": 59,
-      "title": "Escoba Eléctrica",
-      "price": 89.99,
-      "description": "Escoba eléctrica con batería recargable y cabezal de limpieza ajustable.",
-      "category": "electronics",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70GY0McAvHtPX8YkZhIm3AhTw34TUcj5Wbg&s"
-    },
-    {
-      "id": 60,
-      "title": "Silla de Oficina con Reposapiés",
-      "price": 299.99,
-      "description": "Silla de oficina ergonómica con reposapiés y ajuste de altura.",
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_869050-MLU71559807414_092023-O.webp"
-    },
-
-    {
-      "id": 61,
-      "title": "Abrigo de Lana Elegante",
-      "description": "Abrigo de lana de alta calidad, con corte clásico y forro interior. Ideal para el invierno.",
-      "price": 349.99,
-      "category": "men's clothing",
-      "image": "https://img.kwcdn.com/product/1e133b362c3/7429d21a-200c-447b-bc32-616466e220b8_800x800.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 62,
-      "title": "Chaqueta de Mezclilla Clásica",
-      "description": "Chaqueta de mezclilla con diseño clásico y ajuste relajado. Ideal para el uso diario.",
-      "price": 89.99,
-      "category": "women's clothing",
-      "image": "https://sykwear.com/wp-content/uploads/2023/02/chaqueta-de-jean-clasica-para-mujer-marca-syk-wear.jpg",
-      "RATING": 4.4,
-      "rating": {
-        "rate": 4.4,
-        "count": 120
-      }
-    },
-    {
-      "id": 63,
-      "title": "Leggings Deportivos con Alta Compresión",
-      "description": "Leggings deportivos con tecnología de compresión para un ajuste perfecto y soporte adicional durante el ejercicio.",
-      "price": 39.99,
-      "category": "women's clothing",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_790230-MCO72995632675_112023-E.webp",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 64,
-      "title": "Sudadera con Capucha y Bolsillo Canguro",
-      "description": "Sudadera cómoda con capucha ajustable y bolsillo canguro. Perfecta para días fríos.",
-      "price": 59.99,
-      "category": "women's clothing",
-      "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/4e48f64b66e1aeae0275dd4557125b3c.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 65,
-      "title": "Teléfono Inteligente con Pantalla AMOLED",
-      "description": "La última versión del teléfono inteligente con pantalla AMOLED, cámara de alta resolución y procesador de última generación. Ideal para usuarios exigentes.",
-      "price": 799.99,
-      "category": "electronics",
-      "image": "https://acf.geeknetic.es/imgri/imagenes/noticias/2020/18908-motorola-edge-plus-muestra.jpg?f=webp",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 66,
-      "title": "Auriculares Inalámbricos con Cancelación de Ruido",
-      "description": "Auriculares Bluetooth con tecnología de cancelación de ruido para una experiencia de audio inmersiva.",
-      "price": 149.99,
-      "category": "electronics",
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/10956985/auriculares-inalambricos-con-cancelacion-de-ruido.jpg?v=637731958569700000",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 67,
-      "title": "Anillo de Diamantes de 1.5 quilates",
-      "description": "Anillo de oro blanco con diamantes de 1.5 quilates. Elegante y sofisticado para ocasiones especiales.",
-      "price": 2999.99,
-      "category": "jewelery",
-      "image": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/spenni-r-n/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/red.jpg",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 68,
-      "title": "Collar de Perlas Naturales",
-      "description": "Collar elegante con perlas naturales. Perfecto para eventos formales y como regalo especial.",
-      "price": 799.99,
-      "category": "jewelery",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_635945-MCO49812164303_042022-O.webp",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 69,
-      "title": "Top Deportivo de Alto Rendimiento",
-      "description": "Top deportivo de alta compresión ideal para entrenamiento intenso. Fabricado con tecnología de absorción de sudor.",
-      "price": 34.99,
-      "category": "women's clothing",
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e08ceceb6e0423995ffaf63009fb166_9366/Top_Deportivo_de_Entrenamiento_Tailored_Impact_Luxe_Soporte_Alto_Cafe_HS2907_21_model.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 70,
-      "title": "Camisa de Vestir Slim Fit",
-      "description": "Camisa de vestir slim fit en algodón con un diseño moderno y elegante. Ideal para ocasiones formales.",
-      "price": 89.99,
-      "category": "men's clothing",
-      "image": "https://hmcolombia.vtexassets.com/arquivos/ids/3941472/Camisa-Slim-Fit---Negro---H-M-CO.jpg?v=638606870398100000",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 71,
-      "title": "Pantalones Deportivos con Tecnología Antimicrobiana",
-      "description": "Pantalones deportivos con tecnología antimicrobiana y ajuste cómodo. Perfectos para cualquier actividad física.",
-      "price": 49.99,
-      "category": "women's clothing",
-      "image": "https://www.mankaia.com/26985-zoom_product/pantalones-elasticos-medicos-antimicrobianos-para-mujeres-cherokee-coleccion-infinity-1123a.jpg",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 72,
-      "title": "Jeans Ajustados de Cintura Alta",
-      "description": "Jeans ajustados de cintura alta con un corte estilizado y moderno. Perfectos para cualquier ocasión casual.",
-      "price": 69.99,
-      "category": "women's clothing",
-      "image": "https://m.media-amazon.com/images/I/71Uimgu3WFL.jpg",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 73,
-      "title": "Televisor 4K Ultra HD de 55 pulgadas",
-      "description": "Televisor 4K Ultra HD con tecnología LED, sonido envolvente y conectividad inteligente. Ideal para una experiencia de cine en casa.",
-      "price": 899.99,
-      "category": "electronics",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/68525104_1/w=800,h=800,fit=pad",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 74,
-      "title": "Aspiradora Robótica Inteligente",
-      "description": "Aspiradora robótica con navegación inteligente, mapeo automático y programación de limpieza. Ideal para mantener tu hogar limpio sin esfuerzo.",
-      "price": 349.99,
-      "category": "electronics",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_769671-MLU75008957706_032024-O.webp",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 75,
-      "title": "Pulsera de Plata Esterlina con Piedras pricesas",
-      "description": "Pulsera elegante de plata esterlina adornada con piedras pricesas. Ideal para eventos formales y como regalo especial.",
-      "price": 399.99,
-      "category": "jewelery",
-      "image": "https://ae01.alicdn.com/kf/S94e4251462834c8d8e06f9e276ece7239.jpg_640x640Q90.jpg_.webp",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 76,
-      "title": "Pendientes de Oro Rosa con Cristales",
-      "description": "Pendientes de oro rosa con cristales brillantes. Perfectos para añadir un toque de elegancia a cualquier atuendo.",
-      "price": 249.99,
-      "category": "jewelery",
-      "image": "https://i.ebayimg.com/thumbs/images/g/qMgAAOSwaMpkTaR7/s-l1200.jpg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 77,
-      "title": "Chaqueta de Cuero Vintage",
-      "description": "Chaqueta de cuero auténtico con un diseño vintage y elegante. Ideal para un estilo urbano y moderno.",
-      "price": 249.99,
-      "category": "women's clothing",
-      "image": "https://i.etsystatic.com/24645593/r/il/7eb3df/4417828831/il_fullxfull.4417828831_gey3.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 78,
-      "title": "Abrigo de Lana con Cinturón",
-      "description": "Abrigo de lana de alta calidad con cinturón para un ajuste personalizado. Ideal para el invierno y ocasiones formales.",
-      "price": 299.99,
-      "category": "women's clothing",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbHXNNS-WQbwcgDTtlp75gjh3W2Vs5sn3iwQ&s",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 79,
-      "title": "Chaqueta de Mezclilla Ajustada",
-      "description": "Chaqueta de mezclilla con un ajuste moderno y detalles desgastados. Perfecta para un look casual y desenfadado.",
-      "price": 89.99,
-      "category": "women's clothing",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/72890648_1/w=800,h=800,fit=pad",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 80,
-      "title": "Leggings Deportivos de Alta Compresión",
-      "description": "Leggings deportivos con alta compresión y soporte adicional para un rendimiento óptimo durante el ejercicio.",
-      "price": 39.99,
-      "category": "women's clothing",
-      "image": "https://m.media-amazon.com/images/I/51F1QaHMMYL._AC_UY1000_.jpg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 81,
-      "title": "Refrigerador de Doble Puerta con Tecnología No Frost",
-      "description": "Refrigerador con tecnología No Frost, control de temperatura independiente y un diseño elegante. Ideal para mantener los alimentos frescos por más tiempo.",
-      "price": 1199.99,
-      "category": "electronics",
-      "image": "https://www.ktronix.com/medias/7704353446104-001-750Wx750H?context=bWFzdGVyfGltYWdlc3w0NjY4fGltYWdlL3dlYnB8YURFNEwyZzVNQzh4TkRVek9EUTNPREU1TURZeU1pODNOekEwTXpVek5EUTJNVEEwWHpBd01WODNOVEJYZURjMU1FZ3w1ZDg2MWI3OWZmNmQ3ZGQyMGJlNjU2YjJlNTYyN2YxM2E5ZmFhYjBhZWI5MzAxNDY0YWFkNDIyZGYxYWZiNWRm",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 82,
-      "title": "Microondas con Función Grill",
-      "description": "Microondas con función grill para cocinar y dorar alimentos con facilidad. Equipado con múltiples programas automáticos y control digital.",
-      "price": 149.99,
-      "category": "electronics",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacCO/278892_1/w=800,h=800,fit=pad",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 83,
-      "title": "Anillo de Oro de 18k con Diamantes",
-      "description": "Anillo de oro de 18 quilates con diamantes brillantes. Perfecto para ocasiones especiales y como regalo memorable.",
-      "price": 1299.99,
-      "category": "jewelery",
-      "image": "https://www.eljineteazul.com/wp-content/uploads/2018/08/w1-17.jpg",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 84,
-      "title": "Collar de Perlas Cultivadas",
-      "description": "Collar elegante de perlas cultivadas, ideal para eventos formales y ocasiones especiales. Incluye un elegante cierre de plata.",
-      "price": 499.99,
-      "category": "jewelery",
-      "image": "https://www.bisuel.com/378-thickbox_default/maxi-collar-perlas-cultivadas-cuarzo-amatista-natural.jpg",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 85,
-      "title": "Sudadera con Capucha de Algodón",
-      "description": "Sudadera de algodón con capucha, ideal para un estilo casual y cómodo. Disponible en varios colores.",
-      "price": 59.99,
-      "category": "women's clothing",
-      "image": "https://static2.goldengoose.com/public/Style/ECOMM/GMP01224.P001232-60453.jpg",
-      "RATING": 4.5,
-      "rating": {
-        "rate": 4.5,
-        "count": 120
-      }
-    },
-    {
-      "id": 86,
-      "title": "Top Deportivo de Compresión",
-      "description": "Top deportivo con soporte de compresión, ideal para actividades físicas intensas. Diseñado para ofrecer comodidad y rendimiento.",
-      "price": 29.99,
-      "category": "women's clothing",
-      "image": "https://leonisa.co/cdn/shop/files/19AA15_000_1200X1500_1_480x.jpg?v=1718825897",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 87,
-      "title": "Camisa de Vestir de Algodón con Cuello Clásico",
-      "description": "Camisa de vestir de algodón con un diseño clásico y elegante. Ideal para eventos formales y de oficina.",
-      "price": 79.99,
-      "category": "men's clothing",
-      "image": "https://www.gef.co/cdn/shop/files/fejaz-naranja-15681-742309_015681-1_0d4e00b6-196a-4d67-a275-d7dcd287eb87.jpg?v=1721250703",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 88,
-      "title": "Aspiradora de Mano Inalámbrica",
-      "description": "Aspiradora de mano inalámbrica con potente succión y batería de larga duración. Ideal para la limpieza rápida y efectiva.",
-      "price": 89.99,
-      "category": "electronics",
-      "image": "https://s7cdn.spectrumbrands.com/~/media/LatinAmerica/BlackAndDecker/Imagenes/Producto_High_Res/Home/DustBusters/HHVJ315JDP27/HHVJ315JDP27_3.jpg?mw=450",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 89,
-      "title": "Plancha de Vapor con Suela de Cerámica",
-      "description": "Plancha de vapor con suela de cerámica para un deslizamiento suave y sin esfuerzo. Ideal para un planchado eficiente y rápido.",
-      "price": 49.99,
-      "category": "electronics",
-      "image": "https://www.homeelementsweb.com/wp-content/uploads/2021/02/plancha-vapor-caramica.jpg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 90,
-      "title": "Pulsera de Plata con Piedras pricesas",
-      "description": "Pulsera de plata con piedras pricesas incrustadas, ideal para un toque de sofisticación y elegancia en cualquier ocasión.",
-      "price": 299.99,
-      "category": "jewelery",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_833349-MCO53442438265_012023-O.webp",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 91,
-      "title": "Pendientes de Oro de 18k con Esmeraldas",
-      "description": "Pendientes de oro de 18 quilates con esmeraldas brillantes. Perfectos para ocasiones especiales y para resaltar cualquier look.",
-      "price": 799.99,
-      "category": "jewelery",
-      "image": "https://www.eljineteazul.com/wp-content/uploads/2020/08/226-410w1.jpg",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 92,
-      "title": "Leggings Deportivos de Alta Compresión",
-      "description": "Leggings deportivos con alta compresión para ofrecer soporte durante el ejercicio. Perfectos para yoga, running y otras actividades.",
-      "price": 39.99,
-      "category": "women's clothing",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_877590-MCO72901734552_112023-O.webp",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 93,
-      "title": "Jeans Ajustados con Cintura Alta",
-      "description": "Jeans ajustados con cintura alta, confeccionados para ofrecer un ajuste cómodo y estilizado. Disponibles en varios lavados.",
-      "price": 69.99,
-      "category": "women's clothing",
-      "image": "https://m.media-amazon.com/images/I/71Uimgu3WFL.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 94,
-      "title": "Traje Completo de Lana para Hombre",
-      "description": "Traje completo de lana con un ajuste elegante y moderno. Ideal para eventos formales y reuniones de negocios.",
-      "price": 499.99,
-      "category": "men's clothing",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_725574-CBT73634892185_122023-O.webp",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 95,
-      "title": "Refrigerador de Doble Puerta con Tecnología No Frost",
-      "description": "Refrigerador de doble puerta con tecnología No Frost para evitar la formación de hielo. Ideal para mantener tus alimentos frescos.",
-      "price": 799.99,
-      "category": "electronics",
-      "image": "https://www.lg.com/cac/images/refrigerador/md07536380/gallery/D-4.jpg",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 96,
-      "title": "Microondas con Función Grill y 30L de Capacidad",
-      "description": "Microondas con función grill para cocinar y dorar tus alimentos. Ideal para preparar comidas rápidas y deliciosas.",
-      "price": 149.99,
-      "category": "electronics",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUFB3EO9ZbEMIwkvXd4v7XKLs-pjDYtZjHUQ&s",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 97,
-      "title": "Anillo de Oro de 18k con Diamantes",
-      "category": "jewelery",
-      "price": 999.99,
-      "image": "https://lcjoyeros.com/wp-content/uploads/2019/02/Joyerias-en-Bogota-Anillos-Compromiso-165-COA-1-1.jpg",
-      "RATING": 4.9,
-      "rating": {
-        "rate": 4.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 98,
-      "title": "Collar de Perlas de Agua Dulce",
-      "description": "Collar de perlas de agua dulce con un diseño clásico. Ideal para eventos elegantes y como un toque de sofisticación.",
-      "price": 249.99,
-      "category": "jewelery",
-      "image": "https://carbonopuro.es/wp-content/uploads/2020/09/Collar-perla-Oro.jpg",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 99,
-      "title": "Chaqueta de Cuero Negra para Hombre",
-      "description": "Chaqueta de cuero negra para hombre, con un diseño moderno y resistente. Ideal para un estilo casual y elegante.",
-      "price": 229.99,
-      "category": "women's clothing",
-      "image": "https://acdn.mitiendanube.com/stores/934/092/products/chaqueta-cuero-chamarra-oziris-11-8fbc9670434cacb79e15494824871054-640-0.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 100,
-      "title": "Abrigo de Lana Gris para Mujer",
-      "description": "Abrigo de lana gris para mujer, con diseño elegante y cálido. Ideal para el invierno y eventos formales.",
-      "price": 349.99,
-      "category": "women's clothing",
-      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/132037770_01/w=800,h=800,fit=pad",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 101,
-      "title": "Chaqueta de Mezclilla Azul Claro para Mujer",
-      "description": "Chaqueta de mezclilla azul claro para mujer, con un ajuste moderno y cómodo. Perfecta para un look casual.",
-      "price": 89.99,
-      "category": "women's clothing",
-      "image": "https://chevignon.vtexassets.com/arquivos/ids/1303892-800-auto?v=638194755072670000&width=800&height=auto&aspect=true",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 102,
-      "title": "Lavadora de Carga Frontal con 8kg de Capacidad",
-      "description": "Lavadora de carga frontal con capacidad para 8kg y múltiples programas de lavado. Ideal para hogares medianos.",
-      "price": 599.99,
-      "category": "electronics",
-      "image": "https://www.lg.com/cac/images/lavadoras-y-secadoras/md07579981/gallery/D_02.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 103,
-      "title": "Aspiradora Sin Cable con Batería de Larga Duración",
-      "description": "Aspiradora sin cable con batería de larga duración. Ideal para limpiar rápidamente sin enredos de cables.",
-      "price": 149.99,
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/51l8N-OTbGL._AC_UF894,1000_QL80_.jpg",
-      "RATING": 4.6,
-      "rating": {
-        "rate": 4.6,
-        "count": 120
-      }
-    },
-    {
-      "id": 104,
-      "title": "Pendientes de Plata de 925 con Zafiros",
-      "description": "Pendientes de plata de 925 con zafiros brillantes. Perfectos para eventos especiales y ocasiones elegantes.",
-      "price": 299.99,
-      "category": "jewelery",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_907116-MCO54974158776_042023-O.webp",
-      "RATING": 4.8,
-      "rating": {
-        "rate": 4.8,
-        "count": 120
-      }
-    },
-    {
-      "id": 105,
-      "title": "Pulsera de Oro Rosa con Detalles de Cristal",
-      "description": "Pulsera de oro rosa con detalles de cristal para un toque de elegancia y estilo. Ideal para eventos formales y casuales.",
-      "price": 199.99,
-      "category": "jewelery",
-      "image": "https://i.ebayimg.com/thumbs/images/g/EPgAAOSwQvZmg0Af/s-l1200.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 106,
-      "title": "Chaqueta de Cuero Vintage",
-      "description": "Chaqueta de cuero genuino con diseño vintage y detalles en metal. Perfecta para cualquier ocasión.",
-      "price": 199.99,
-      "category": "women's clothing",
-      "image": "https://acdn.mitiendanube.com/stores/001/400/105/products/img-20240214-wa0042-d111d21b3b9d8a17bf17079605547499-480-0.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
-    },
-    {
-      "id": 107,
-      "title": "Chaqueta de Cuero Vintage",
-      "description": "Chaqueta de cuero genuino con diseño vintage y detalles en metal. Perfecta para cualquier ocasión.",
-      "price": 199.99,
-      "category": "men's clothing",
-      "image": "https://m.media-amazon.com/images/I/71tEWnZCL9L._AC_UY1000_.jpg",
-      "RATING": 4.7,
-      "rating": {
-        "rate": 4.7,
-        "count": 120
-      }
+[
+  {
+    "id": 1,
+    "title": "Mochila para uso diario y paseos por el bosque",
+    "description": "Tu mochila perfecta para uso diario y paseos por el bosque. Con un diseño robusto y elegante, esta mochila cuenta con múltiples compartimentos que facilitan la organización de tus pertenencias. Guarda tu laptop (hasta 15 pulgadas) en el compartimento acolchado, asegurando la máxima protección durante tus desplazamientos. Ideal para estudiantes, profesionales o aventureros que necesitan una solución versátil y resistente para el día a día.",
+    "price": 109.95,
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "RATING": 3.9,
+    "rating": {
+      "rate": 3.9,
+      "count": 120
     }
-  ]
-}
+  },
+  {
+    "id": 2,
+    "title": "Camisa ajustada con manga larga y botón",
+    "description": "Estilo ajustado con manga larga y contraste de colores que le da un toque moderno. Cuenta con una botonera de tres botones que añade un detalle elegante, mientras que el tejido ligero y suave garantiza una comodidad transpirable durante todo el día. Estas camisas sólidas con cuello redondo están diseñadas para brindar durabilidad y un ajuste perfecto, convirtiéndolas en una opción ideal para la moda casual con un toque refinado.",
+    "price": 22.3,
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    "RATING": 4.1,
+    "rating": {
+      "rate": 4.1,
+      "count": 120
+    }
+  },
+  {
+    "id": 3,
+    "title": "Chaqueta exterior para primavera/otoño/invierno",
+    "description": "Chaqueta exterior perfecta para primavera, otoño e invierno, diseñada para ofrecer calidez y confort en condiciones climáticas variadas. Fabricada con materiales de alta calidad que aseguran durabilidad, es adecuada para diversas actividades como trabajo, senderismo, acampada, escalada, ciclismo, viajes o cualquier actividad al aire libre. Un regalo ideal para ti o un ser querido que disfruta de la vida al aire libre.",
+    "price": 55.99,
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 4,
+    "title": "Camiseta básica con variación de color",
+    "description": "El color del producto puede variar ligeramente debido a las diferencias en la calibración de las pantallas, lo que es común en las compras en línea. Además, las proporciones corporales varían entre personas, por lo que te recomendamos revisar la tabla de tallas detallada a continuación en la descripción del producto para garantizar un ajuste perfecto y evitar decepciones.",
+    "price": 15.99,
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "RATING": 2.1,
+    "rating": {
+      "rate": 2.1,
+      "count": 120
+    }
+  },
+  {
+    "id": 5,
+    "title": "Joya Naga inspirada en el dragón acuático",
+    "description": "De nuestra exclusiva colección Legends, el Naga se inspira en el majestuoso dragón acuático de la mitología que protege la perla del océano. Esta pulsera única está diseñada con detalles intrincados que representan el poder y la sabiduría del Naga. Úsala hacia adentro para atraer amor y abundancia, o hacia afuera para protección. Un accesorio que no solo es una joya, sino también un símbolo de fuerza y protección.",
+    "price": 695,
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 6,
+    "title": "Joya con garantía de devolución de 30 días",
+    "description": "Estamos comprometidos con tu satisfacción. Por eso, ofrecemos una política de devolución o cambio sin complicaciones dentro de los 30 días posteriores a tu compra. Diseñado y vendido exclusivamente por Hafeez Center en EE.UU., cada artículo es fabricado con los más altos estándares de calidad. Si no estás completamente satisfecho, puedes devolver o cambiar tu pedido dentro de los 30 días, sin preguntas.",
+    "price": 168,
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "RATING": 3.9,
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 7,
+    "title": "Anillo de compromiso con diamante solitario",
+    "description": "Este anillo de compromiso clásico con un diamante solitario es la elección perfecta para ella. Diseñado para simbolizar el amor eterno, es un regalo ideal para ocasiones especiales como compromisos, bodas, aniversarios, o el Día de San Valentín. Su diseño elegante y atemporal asegura que será un tesoro preciado por siempre.",
+    "price": 9.99,
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "RATING": 3,
+    "rating": {
+      "rate": 3,
+      "count": 120
+    }
+  },
+  {
+    "id": 8,
+    "title": "Pendientes de doble túnel en oro rosa",
+    "description": "Pendientes de doble túnel con un elegante acabado en oro rosa, que combina estilo y durabilidad. Fabricados en acero inoxidable 316L de alta calidad, estos pendientes son resistentes a la corrosión y al desgaste, lo que los convierte en una opción duradera y sofisticada para cualquier ocasión.",
+    "price": 10.99,
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    "RATING": 4.2,
+    "rating": {
+      "rate": 4.2,
+      "count": 120
+    }
+  },
+  {
+    "id": 9,
+    "title": "Zapatillas deportivas Nike Air Max",
+    "description": "Las zapatillas deportivas Nike Air Max son sinónimo de confort y rendimiento. Diseñadas con una tecnología de amortiguación de aire visible que ofrece una comodidad excepcional, estas zapatillas son ideales tanto para entrenamientos intensos como para el uso diario. Su diseño versátil y moderno las convierte en una pieza esencial en cualquier armario, fusionando estilo y funcionalidad.",
+    "price": 120,
+    "category": "men's clothing",
+    "image": "https://static.nike.com/a/images/t_default/38591bdf-b510-40d1-8887-c1e39c1e1987/AIR+MAX+90.png",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 10,
+    "title": "Gafas de sol con protección UV",
+    "description": "Gafas de sol con un diseño clásico y atemporal que nunca pasa de moda. Equipadas con lentes polarizados de alta calidad que reducen el deslumbramiento y ofrecen una visión nítida, estas gafas no solo protegen tus ojos de los dañinos rayos UV, sino que también elevan tu estilo en los días soleados. Ideales para cualquier actividad al aire libre, combinan elegancia y protección en un solo accesorio.",
+    "price": 45,
+    "category": "women's clothing",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6_p3AEsSb_uHpkxb3m98f_vMtk3tSBUyaiA&s",
+    "RATING": 4.0,
+    "rating": {
+      "rate": 4.0,
+      "count": 120
+    }
+  },
+  {
+    "id": 11,
+    "title": "Auriculares inalámbricos con cancelación de ruido",
+    "description": "Auriculares inalámbricos con cancelación de ruido y batería de larga duración. Equipados con micrófono para llamadas claras y controles táctiles para la reproducción de música.",
+    "price": 89.99,
+    "category": "electronics",
+    "image": "https://exitocol.vtexassets.com/arquivos/ids/10957394/auriculares-inalambricos-con-cancelacion-de-ruido.jpg?v=637731960963700000",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 12,
+    "title": "Reloj elegante con correa de cuero genuino",
+    "description": "Reloj elegante con correa de cuero genuino y esfera de acero inoxidable. Resistente al agua y con función de cronómetro.",
+    "price": 199.99,
+    "category": "jewelery",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_695412-CBT49465087242_032022-O.webp",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 13,
+    "title": "Teléfono inteligente con pantalla AMOLED",
+    "description": "La última versión del teléfono inteligente con pantalla AMOLED, cámara de alta resolución y procesador de última generación. Ideal para usuarios exigentes.",
+    "price": 799,
+    "category": "electronics",
+    "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/legacy_bdt/1540-1.jpeg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 14,
+    "title": "Cámara digital compacta con zoom óptico",
+    "description": "Cámara digital compacta con zoom óptico de 10x y grabación de video en 4K. Ideal para fotógrafos aficionados y profesionales.",
+    "price": 499,
+    "category": "electronics",
+    "image": "https://www.sony.com.co/image/27eab30495f592aa158f115cb3ba82fe?fmt=pjpeg&wid=1200&hei=470&bgcolor=F1F5F9&bgc=F1F5F9",
+    "RATING": 4.3,
+    "rating": {
+      "rate": 4.3,
+      "count": 120
+    }
+  },
+  {
+    "id": 15,
+    "title": "Laptop ultradelgada con pantalla de 15 pulgadas",
+    "description": "Laptop ultradelgada con pantalla de 15 pulgadas, procesador Intel i7, 16GB de RAM y 512GB de SSD. Ideal para profesionales y estudiantes.",
+    "price": 1299,
+    "category": "electronics",
+    "image": "https://m.media-amazon.com/images/I/71ehzrGUO7L._AC_SL1500_.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 16,
+    "title": "Altavoces Bluetooth portátiles con sonido estéreo",
+    "description": "Altavoces Bluetooth portátiles con sonido estéreo de alta calidad y batería de larga duración. Resistente al agua y con conectividad rápida.",
+    "price": 79.99,
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_712529-MLU74108811914_012024-O.webp",
+    "RATING": 4.4,
+    "rating": {
+      "rate": 4.4,
+      "count": 120
+    }
+  },
+  {
+    "id": 17,
+    "title": "Cartera de cuero genuino con múltiples compartimentos",
+    "description": "Cartera de cuero genuino con múltiples compartimentos y cierre de seguridad. Diseño elegante y funcional para uso diario.",
+    "price": 89.99,
+    "category": "men's clothing",
+    "image": "https://m.media-amazon.com/images/I/91QWHxrSnES._AC_UL1500_.jpg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 18,
+    "title": "Tablet con pantalla de 10 pulgadas y soporte para stylus",
+    "description": "Tablet con pantalla de 10 pulgadas, 64GB de almacenamiento y soporte para stylus. Ideal para estudiantes y profesionales.",
+    "price": 299,
+    "category": "electronics",
+    "image": "https://topesdegama.com/app/uploads-topesdegama.com/2020/05/samsung-galaxy-s8-tablet.jpg?x=480&quality=40",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 19,
+    "title": "Auriculares Bluetooth Noise-Cancelling",
+    "description": "Este smartwatch combina estilo y funcionalidad, equipado con GPS integrado para un seguimiento preciso de tus rutas y un monitor de frecuencia cardíaca que te ayuda a mantenerte en tu zona de ejercicio óptima. Perfecto para deportistas y entusiastas del fitness, el reloj ofrece métricas detalladas sobre tus entrenamientos, sueño y actividad diaria. Con un diseño elegante y resistente al agua, es ideal tanto para el uso diario como para actividades al aire libre. Además, su batería de larga duración te permite usarlo durante días sin preocuparte por recargarlo constantemente.",
+    "price": 149.99,
+    "category": "electronics",
+    "image": "https://f.fcdn.app/imgs/ecd8f6/aiwa.com.uy/aiwauy/26fa/original/catalogo/AW-ANC45F_AW-ANC45F_1/2000-2000/auriculares-bluetooth-noise-cancelling-aw-anc45f-auriculares-bluetooth-noise-cancelling-aw-anc45f.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 20,
+    "title": "Smartwatch con GPS y Monitor de Frecuencia Cardíaca",
+    "description": "Set de cuchillos de cocina de acero inoxidable con mangos ergonómicos. Incluye cuchillo chef, cuchillo para pan y cuchillo para verduras.",
+    "price": 99.99,
+    "category": "electronics",
+    "image": "https://m.media-amazon.com/images/I/71sb25zbxeL._AC_SL1500_.jpg",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 21,
+    "title": "Auriculares inalámbricos con cancelación de ruido activa",
+    "description": "Auriculares inalámbricos con cancelación de ruido activa y micrófono integrado. Ideal para escuchar música en alta calidad y realizar llamadas.",
+    "price": 129.99,
+    "category": "electronics",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/132240679_01/w=800,h=800,fit=pad",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 22,
+    "title": "Reloj inteligente con monitor de frecuencia cardíaca",
+    "description": "Reloj inteligente con monitor de frecuencia cardíaca, GPS integrado y resistencia al agua. Ideal para seguimiento de actividad física y notificaciones.",
+    "price": 199.99,
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_Q_NP_2X_666420-CBT74694587380_022024-T.webp",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 23,
+    "title": "Zapatillas deportivas con amortiguación",
+    "description": "Zapatillas deportivas con amortiguación de alta calidad y diseño transpirable. Perfectas para correr o entrenar.",
+    "price": 109.99,
+    "category": "men's clothing",
+    "image": "https://static.runnea.com/images/202311/zapatillas-running-maraton-on-cloudeclipse-800x800x80.jpg?1",
+    "RATING": 4.4,
+    "rating": {
+      "rate": 4.4,
+      "count": 120
+    }
+  },
+  {
+    "id": 24,
+    "title": "Camisa de algodón de manga corta",
+    "description": "Camisa de algodón de manga corta con diseño casual y corte moderno. Ideal para el verano y ocasiones informales.",
+    "price": 39.99,
+    "category": "men's clothing",
+    "image": "https://allbaute.com/cdn/shop/products/00209_0e7a8ce1-2e29-48f6-b6df-37fbf1e3f9c3.png?v=1681401526",
+    "RATING": 4.3,
+    "rating": {
+      "rate": 4.3,
+      "count": 120
+    }
+  },
+  {
+    "id": 25,
+    "title": "Silla ergonómica de oficina",
+    "description": "Silla ergonómica de oficina con soporte lumbar ajustable y reposabrazos acolchados. Ideal para largas jornadas de trabajo.",
+    "price": 249.99,
+    "category": "electronics",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/118562847_01/w=800,h=800,fit=pad",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 26,
+    "title": "Laptop de 15.6 pulgadas con procesador Intel i7",
+    "description": "Laptop de 15.6 pulgadas con procesador Intel i7, 16GB de RAM y 512GB SSD. Ideal para trabajo y entretenimiento.",
+    "price": 999.99,
+    "category": "electronics",
+    "image": "https://exitocol.vteximg.com.br/arquivos/ids/15994752/Portatil-HP-Intel-Core-i7-1255U-12-GB-512-GB-SSD-15-dy5010la-3256561_a.jpg",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 27,
+    "title": "Cámara digital compacta",
+    "description": "Cámara digital compacta con 20MP de resolución, zoom óptico de 10x y grabación de video en Full HD.",
+    "price": 349.99,
+    "category": "electronics",
+    "image": "https://www.photolari.com/wp-content/uploads/2023/01/kodak-compacta-2005.jpg",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 28,
+    "title": "Consola de videojuegos de última generación",
+    "description": "Consola de videojuegos de última generación con capacidad para juegos en 4K, incluye un control y un juego de ejemplo.",
+    "price": 499.99,
+    "category": "electronics",
+    "image": "https://assets.xboxservices.com/assets/34/72/34728a56-e88e-409d-9e6f-1e89aa82b25f.png?n=Console-Hub_Content-Placement-0_SeriesS-Duo_740x555.png",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 29,
+    "title": "Par de zapatos de cuero para hombres",
+    "description": "Par de zapatos de cuero para hombres, con diseño clásico y suela de goma antideslizante.",
+    "price": 89.99,
+    "category": "men's clothing",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_957744-MCO47059589982_082021-O.webp",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 30,
+    "title": "Chaqueta de invierno para mujeres",
+    "description": "Chaqueta de invierno para mujeres con aislamiento térmico y diseño impermeable. Mantiene el calor y resiste la lluvia.",
+    "price": 129.99,
+    "category": "women's clothing",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_621249-CBT53919268237_022023-O.webp",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 31,
+    "title": "Auriculares bluetooth con sonido envolvente",
+    "description": "Auriculares bluetooth con sonido envolvente y batería de larga duración. Incluye estuche de carga y cables.",
+    "price": 89.99,
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_958078-CBT75664480211_042024-O.webp",
+    "RATING": 4.4,
+    "rating": {
+      "rate": 4.4,
+      "count": 120
+    }
+  },
+  {
+    "id": 32,
+    "title": "Televisor LED de 55 pulgadas",
+    "description": "Televisor LED de 55 pulgadas con resolución 4K y función Smart TV. Incluye control remoto y soporte.",
+    "price": 749.99,
+    "category": "electronics",
+    "image": "https://exitocol.vtexassets.com/arquivos/ids/22566577/Televisor-LG-55-Pulgadas-LED-Uhd-4K-Smart-TV-55UR8750PSAAWC-3382701_b.jpg?v=638489659603700000",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 33,
+    "title": "Cafetera de cápsulas con función de espumador de leche",
+    "description": "Cafetera de cápsulas con función de espumador de leche y programas automáticos de preparación. Ideal para café y capuchinos.",
+    "price": 149.99,
+    "category": "electronics",
+    "image": "https://osterla.vteximg.com.br/arquivos/ids/158602-700-700/BVSTDC02-2.jpg?v=638128514734730000/",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 34,
+    "title": "Reloj inteligente con monitoreo de frecuencia cardíaca",
+    "description": "Reloj inteligente con monitoreo de frecuencia cardíaca, GPS y notificaciones de smartphone. Compatible con iOS y Android.",
+    "price": 199.99,
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_727194-CBT74597425451_022024-O.webp",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 35,
+    "title": "Hidratante facial con vitamina C y ácido hialurónico",
+    "description": "Hidratante facial con vitamina C y ácido hialurónico. Fórmula ligera y no grasa para todos los tipos de piel.",
+    "price": 29.99,
+    "category": "women's clothing",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_625938-MCO44689540876_012021-O.webp",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 36,
+    "title": "Par de auriculares con cancelación de ruido activa",
+    "description": "Par de auriculares con cancelación de ruido activa y conectividad bluetooth. Incluye estuche de carga.",
+    "price": 129.99,
+    "category": "electronics",
+    "image": "https://cdn.cloudbf.com/thumb/format/mini_xsize/upfile/130/product_o/Active-Noise-Cancelling-Wireless-Headphone-HEP-0146.jpg.webp",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 37,
+    "title": "Chaqueta impermeable de alta visibilidad",
+    "description": "Chaqueta impermeable de alta visibilidad con reflectores y capucha ajustable. Ideal para condiciones meteorológicas adversas.",
+    "price": 79.99,
+    "category": "men's clothing",
+    "image": "https://cdn11.bigcommerce.com/s-f4083/images/stencil/1280x1280/products/178019/265484/418gPlGXWuL__50736.1662678208.jpg?c=2",
+    "RATING": 4.4,
+    "rating": {
+      "rate": 4.4,
+      "count": 120
+    }
+  },
+  {
+    "id": 38,
+    "title": "Ropa de cama de algodón orgánico con diseño de flores",
+    "description": "Ropa de cama de algodón orgánico con diseño de flores. Incluye funda de almohada, sábana y funda nórdica.",
+    "price": 99.99,
+    "category": "women's clothing",
+    "image": "https://m.media-amazon.com/images/I/81W+tUywkqL._AC_UF894,1000_QL80_.jpg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 39,
+    "title": "Mesa de comedor de madera de roble",
+    "description": "Mesa de comedor de madera de roble con acabado natural. Ideal para espacios modernos y elegantes.",
+    "price": 399.99,
+    "category": "women's clothing",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/125105516_01/w=800,h=800,fit=pad",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 40,
+    "title": "Lámpara LED de mesa BrightLight",
+    "description": "Lámpara de mesa LED con ajuste de brillo y color. Ideal para oficina o dormitorio.",
+    "price": 59.99,
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_989330-CBT75917994160_042024-O.webp",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 41,
+    "title": "Smartwatch Pro",
+    "price": 299.99,
+    "description": "Reloj inteligente con monitor de salud, GPS y notificaciones de smartphone.",
+    "category": "electronics",
+    "image": "https://dcdn.mitiendanube.com/stores/001/068/912/products/6cbb728945d856ad96a2779c401553b1d87cd902_original-11-4e41700b160695217e16952185492703-1024-1024.jpeg"
+  },
+  {
+    "id": 42,
+    "title": "Silla Ergonomica",
+    "price": 249.99,
+    "description": "Silla de oficina con soporte lumbar ajustable y reposabrazos.",
+    "category": "men's clothing",
+    "image": "https://virtualmuebles.com/cdn/shop/products/6153ok0QoTL._AC_SL1500.jpg?v=1700166502&width=1445"
+  },
+  {
+    "id": 43,
+    "title": "Auriculares Bluetooth X100",
+    "price": 149.99,
+    "description": "Auriculares inalámbricos con cancelación de ruido y hasta 20 horas de batería.",
+    "category": "electronics",
+    "image": "https://m.media-amazon.com/images/I/61g+MrOKdcL.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Smartphone Z8",
+    "price": 799.99,
+    "description": "Teléfono móvil con pantalla AMOLED de 6.5”, 128GB de almacenamiento y cámara triple de 64MP.",
+    "category": "electronics",
+    "image": "https://co.celulares.com/fotos/nuu-mobile-z8-2-66166-g-alt.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Cafetera Espresso Deluxe",
+    "price": 199.99,
+    "description": "Cafetera de espresso con capacidad para 12 tazas y función de vapor.",
+    "category": "electronics",
+    "image": "https://usaelectrodomesticos.com.co/wp-content/uploads/2022/06/dedica-deluxe_Mesa-de-trabajo-1.png"
+  },
+  {
+    "id": 46,
+    "title": "Camisa Casual de Algodón",
+    "price": 49.99,
+    "description": "Camisa de algodón 100% con diseño casual y ajuste moderno.",
+    "category": "men's clothing",
+    "image": "https://www.camiseriainglesa.com/cdn/shop/files/11855_Camisa_Casual_100_Algodon_1_a549f03f-dd7b-439a-98c3-129d85749bbb.webp?v=1715784506&width=900"
+  },
+  {
+    "id": 47,
+    "title": "Zapatos Deportivos UltraLite",
+    "price": 89.99,
+    "description": "Zapatos deportivos ligeros con soporte para el arco y suela antideslizante.",
+    "category": "men's clothing",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/129948849_01/w=800,h=800,fit=pad"
+  },
+  {
+    "id": 48,
+    "title": "Juego de Sábanas de Seda",
+    "price": 129.99,
+    "description": "Juego de sábanas de seda con 4 piezas, incluye fundas de almohada y cobertor.",
+    "category": "women's clothing",
+    "image": "https://biosmedic.com/wp-content/uploads/2023/08/dacron.png"
+  },
+  {
+    "id": 49,
+    "title": "Cámara de Seguridad IP",
+    "price": 119.99,
+    "description": "Cámara de seguridad con visión nocturna, detección de movimiento y acceso remoto.",
+    "category": "electronics",
+    "image": "https://exitocol.vtexassets.com/arquivos/ids/967827/Camara-de-Seguridad-IP-WIFI-1080-3-Antenas.jpg?v=637110544590000000"
+  },
+  {
+    "id": 50,
+    "title": "Mesa de Centro de Vidrio",
+    "price": 229.99,
+    "description": "Mesa de centro con superficie de vidrio templado y base de madera sólida.",
+    "category": "women's clothing",
+    "image": "https://ambienta.com.co/wp-content/uploads/2020/10/MESA-DE-CENTRO-SEUL-1.jpg"
+  },
+  {
+    "id": 51,
+    "title": "Reloj de Pulsera Clásico",
+    "price": 179.99,
+    "description": "Reloj de pulsera con correa de cuero genuino y caja de acero inoxidable.",
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_779952-MLU69599848408_052023-O.webp"
+  },
+  {
+    "id": 52,
+    "title": "Mochila de Viaje Resistente",
+    "price": 89.99,
+    "description": "Mochila de viaje con múltiples compartimentos y sistema de ventilación.",
+    "category": "women's clothing",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_827679-MLU73304686812_122023-O.webp"
+  },
+  {
+    "id": 53,
+    "title": "Juego de Herramientas de Jardinería",
+    "price": 59.99,
+    "description": "Juego de herramientas de jardinería de 5 piezas con mango ergonómico.",
+    "category": "men's clothing",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacCO/522599/public"
+  },
+  {
+    "id": 54,
+    "title": "Chaqueta Impermeable",
+    "price": 99.99,
+    "description": "Chaqueta impermeable con capucha y costuras selladas para protección contra la lluvia.",
+    "category": "men's clothing",
+    "image": "https://kamaleonbiker.com/wp-content/uploads/2023/09/Chaqueta-1-1.jpg"
+  },
+  {
+    "id": 55,
+    "title": "Lámpara de Escritorio LED",
+    "price": 79.99,
+    "description": "Lámpara de escritorio con luz LED regulable y base ajustable.",
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_770268-MLU69767759042_062023-O.webp"
+  },
+  {
+    "id": 56,
+    "title": "Cámara de Acción 4K",
+    "price": 249.99,
+    "category": "electronics",
+    "description": "Esta cámara de acción 4K es ideal para capturar vídeos y fotos de alta calidad durante tus aventuras. Con una resolución 4K y resistencia a condiciones extremas, es perfecta para grabar deportes extremos, viajes y cualquier actividad al aire libre. Su diseño compacto y robusto la hace resistente al agua y a golpes. Incluye varios modos de grabación y una batería de larga duración.",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_704109-MCO31050812176_062019-O.webp"
+  },
+  {
+    "id": 57,
+    "title": "Tostadora de Pan",
+    "price": 59.99,
+    "description": "Tostadora de pan con capacidad para 4 rebanadas y controles de temperatura.",
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_913367-MLC46627999757_072021-O.webp"
+  },
+  {
+    "id": 58,
+    "title": "Juguete Educativo para Niños",
+    "price": 34.99,
+    "description": "Juguete educativo con actividades interactivas para el desarrollo infantil.",
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_666682-MCO72925398863_112023-E.webp"
+  },
+  {
+    "id": 59,
+    "title": "Escoba Eléctrica",
+    "price": 89.99,
+    "description": "Escoba eléctrica con batería recargable y cabezal de limpieza ajustable.",
+    "category": "electronics",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70GY0McAvHtPX8YkZhIm3AhTw34TUcj5Wbg&s"
+  },
+  {
+    "id": 60,
+    "title": "Silla de Oficina con Reposapiés",
+    "price": 299.99,
+    "description": "Silla de oficina ergonómica con reposapiés y ajuste de altura.",
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_869050-MLU71559807414_092023-O.webp"
+  },
+
+  {
+    "id": 61,
+    "title": "Abrigo de Lana Elegante",
+    "description": "Abrigo de lana de alta calidad, con corte clásico y forro interior. Ideal para el invierno.",
+    "price": 349.99,
+    "category": "men's clothing",
+    "image": "https://img.kwcdn.com/product/1e133b362c3/7429d21a-200c-447b-bc32-616466e220b8_800x800.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 62,
+    "title": "Chaqueta de Mezclilla Clásica",
+    "description": "Chaqueta de mezclilla con diseño clásico y ajuste relajado. Ideal para el uso diario.",
+    "price": 89.99,
+    "category": "women's clothing",
+    "image": "https://sykwear.com/wp-content/uploads/2023/02/chaqueta-de-jean-clasica-para-mujer-marca-syk-wear.jpg",
+    "RATING": 4.4,
+    "rating": {
+      "rate": 4.4,
+      "count": 120
+    }
+  },
+  {
+    "id": 63,
+    "title": "Leggings Deportivos con Alta Compresión",
+    "description": "Leggings deportivos con tecnología de compresión para un ajuste perfecto y soporte adicional durante el ejercicio.",
+    "price": 39.99,
+    "category": "women's clothing",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_790230-MCO72995632675_112023-E.webp",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 64,
+    "title": "Sudadera con Capucha y Bolsillo Canguro",
+    "description": "Sudadera cómoda con capucha ajustable y bolsillo canguro. Perfecta para días fríos.",
+    "price": 59.99,
+    "category": "women's clothing",
+    "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/4e48f64b66e1aeae0275dd4557125b3c.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 65,
+    "title": "Teléfono Inteligente con Pantalla AMOLED",
+    "description": "La última versión del teléfono inteligente con pantalla AMOLED, cámara de alta resolución y procesador de última generación. Ideal para usuarios exigentes.",
+    "price": 799.99,
+    "category": "electronics",
+    "image": "https://acf.geeknetic.es/imgri/imagenes/noticias/2020/18908-motorola-edge-plus-muestra.jpg?f=webp",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 66,
+    "title": "Auriculares Inalámbricos con Cancelación de Ruido",
+    "description": "Auriculares Bluetooth con tecnología de cancelación de ruido para una experiencia de audio inmersiva.",
+    "price": 149.99,
+    "category": "electronics",
+    "image": "https://exitocol.vtexassets.com/arquivos/ids/10956985/auriculares-inalambricos-con-cancelacion-de-ruido.jpg?v=637731958569700000",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 67,
+    "title": "Anillo de Diamantes de 1.5 quilates",
+    "description": "Anillo de oro blanco con diamantes de 1.5 quilates. Elegante y sofisticado para ocasiones especiales.",
+    "price": 2999.99,
+    "category": "jewelery",
+    "image": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/spenni-r-n/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/red.jpg",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 68,
+    "title": "Collar de Perlas Naturales",
+    "description": "Collar elegante con perlas naturales. Perfecto para eventos formales y como regalo especial.",
+    "price": 799.99,
+    "category": "jewelery",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_635945-MCO49812164303_042022-O.webp",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 69,
+    "title": "Top Deportivo de Alto Rendimiento",
+    "description": "Top deportivo de alta compresión ideal para entrenamiento intenso. Fabricado con tecnología de absorción de sudor.",
+    "price": 34.99,
+    "category": "women's clothing",
+    "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e08ceceb6e0423995ffaf63009fb166_9366/Top_Deportivo_de_Entrenamiento_Tailored_Impact_Luxe_Soporte_Alto_Cafe_HS2907_21_model.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 70,
+    "title": "Camisa de Vestir Slim Fit",
+    "description": "Camisa de vestir slim fit en algodón con un diseño moderno y elegante. Ideal para ocasiones formales.",
+    "price": 89.99,
+    "category": "men's clothing",
+    "image": "https://hmcolombia.vtexassets.com/arquivos/ids/3941472/Camisa-Slim-Fit---Negro---H-M-CO.jpg?v=638606870398100000",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 71,
+    "title": "Pantalones Deportivos con Tecnología Antimicrobiana",
+    "description": "Pantalones deportivos con tecnología antimicrobiana y ajuste cómodo. Perfectos para cualquier actividad física.",
+    "price": 49.99,
+    "category": "women's clothing",
+    "image": "https://www.mankaia.com/26985-zoom_product/pantalones-elasticos-medicos-antimicrobianos-para-mujeres-cherokee-coleccion-infinity-1123a.jpg",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 72,
+    "title": "Jeans Ajustados de Cintura Alta",
+    "description": "Jeans ajustados de cintura alta con un corte estilizado y moderno. Perfectos para cualquier ocasión casual.",
+    "price": 69.99,
+    "category": "women's clothing",
+    "image": "https://m.media-amazon.com/images/I/71Uimgu3WFL.jpg",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 73,
+    "title": "Televisor 4K Ultra HD de 55 pulgadas",
+    "description": "Televisor 4K Ultra HD con tecnología LED, sonido envolvente y conectividad inteligente. Ideal para una experiencia de cine en casa.",
+    "price": 899.99,
+    "category": "electronics",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/68525104_1/w=800,h=800,fit=pad",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 74,
+    "title": "Aspiradora Robótica Inteligente",
+    "description": "Aspiradora robótica con navegación inteligente, mapeo automático y programación de limpieza. Ideal para mantener tu hogar limpio sin esfuerzo.",
+    "price": 349.99,
+    "category": "electronics",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_769671-MLU75008957706_032024-O.webp",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 75,
+    "title": "Pulsera de Plata Esterlina con Piedras pricesas",
+    "description": "Pulsera elegante de plata esterlina adornada con piedras pricesas. Ideal para eventos formales y como regalo especial.",
+    "price": 399.99,
+    "category": "jewelery",
+    "image": "https://ae01.alicdn.com/kf/S94e4251462834c8d8e06f9e276ece7239.jpg_640x640Q90.jpg_.webp",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 76,
+    "title": "Pendientes de Oro Rosa con Cristales",
+    "description": "Pendientes de oro rosa con cristales brillantes. Perfectos para añadir un toque de elegancia a cualquier atuendo.",
+    "price": 249.99,
+    "category": "jewelery",
+    "image": "https://i.ebayimg.com/thumbs/images/g/qMgAAOSwaMpkTaR7/s-l1200.jpg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 77,
+    "title": "Chaqueta de Cuero Vintage",
+    "description": "Chaqueta de cuero auténtico con un diseño vintage y elegante. Ideal para un estilo urbano y moderno.",
+    "price": 249.99,
+    "category": "women's clothing",
+    "image": "https://i.etsystatic.com/24645593/r/il/7eb3df/4417828831/il_fullxfull.4417828831_gey3.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 78,
+    "title": "Abrigo de Lana con Cinturón",
+    "description": "Abrigo de lana de alta calidad con cinturón para un ajuste personalizado. Ideal para el invierno y ocasiones formales.",
+    "price": 299.99,
+    "category": "women's clothing",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbHXNNS-WQbwcgDTtlp75gjh3W2Vs5sn3iwQ&s",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 79,
+    "title": "Chaqueta de Mezclilla Ajustada",
+    "description": "Chaqueta de mezclilla con un ajuste moderno y detalles desgastados. Perfecta para un look casual y desenfadado.",
+    "price": 89.99,
+    "category": "women's clothing",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/72890648_1/w=800,h=800,fit=pad",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 80,
+    "title": "Leggings Deportivos de Alta Compresión",
+    "description": "Leggings deportivos con alta compresión y soporte adicional para un rendimiento óptimo durante el ejercicio.",
+    "price": 39.99,
+    "category": "women's clothing",
+    "image": "https://m.media-amazon.com/images/I/51F1QaHMMYL._AC_UY1000_.jpg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 81,
+    "title": "Refrigerador de Doble Puerta con Tecnología No Frost",
+    "description": "Refrigerador con tecnología No Frost, control de temperatura independiente y un diseño elegante. Ideal para mantener los alimentos frescos por más tiempo.",
+    "price": 1199.99,
+    "category": "electronics",
+    "image": "https://www.ktronix.com/medias/7704353446104-001-750Wx750H?context=bWFzdGVyfGltYWdlc3w0NjY4fGltYWdlL3dlYnB8YURFNEwyZzVNQzh4TkRVek9EUTNPREU1TURZeU1pODNOekEwTXpVek5EUTJNVEEwWHpBd01WODNOVEJYZURjMU1FZ3w1ZDg2MWI3OWZmNmQ3ZGQyMGJlNjU2YjJlNTYyN2YxM2E5ZmFhYjBhZWI5MzAxNDY0YWFkNDIyZGYxYWZiNWRm",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 82,
+    "title": "Microondas con Función Grill",
+    "description": "Microondas con función grill para cocinar y dorar alimentos con facilidad. Equipado con múltiples programas automáticos y control digital.",
+    "price": 149.99,
+    "category": "electronics",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacCO/278892_1/w=800,h=800,fit=pad",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 83,
+    "title": "Anillo de Oro de 18k con Diamantes",
+    "description": "Anillo de oro de 18 quilates con diamantes brillantes. Perfecto para ocasiones especiales y como regalo memorable.",
+    "price": 1299.99,
+    "category": "jewelery",
+    "image": "https://www.eljineteazul.com/wp-content/uploads/2018/08/w1-17.jpg",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 84,
+    "title": "Collar de Perlas Cultivadas",
+    "description": "Collar elegante de perlas cultivadas, ideal para eventos formales y ocasiones especiales. Incluye un elegante cierre de plata.",
+    "price": 499.99,
+    "category": "jewelery",
+    "image": "https://www.bisuel.com/378-thickbox_default/maxi-collar-perlas-cultivadas-cuarzo-amatista-natural.jpg",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 85,
+    "title": "Sudadera con Capucha de Algodón",
+    "description": "Sudadera de algodón con capucha, ideal para un estilo casual y cómodo. Disponible en varios colores.",
+    "price": 59.99,
+    "category": "women's clothing",
+    "image": "https://static2.goldengoose.com/public/Style/ECOMM/GMP01224.P001232-60453.jpg",
+    "RATING": 4.5,
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 86,
+    "title": "Top Deportivo de Compresión",
+    "description": "Top deportivo con soporte de compresión, ideal para actividades físicas intensas. Diseñado para ofrecer comodidad y rendimiento.",
+    "price": 29.99,
+    "category": "women's clothing",
+    "image": "https://leonisa.co/cdn/shop/files/19AA15_000_1200X1500_1_480x.jpg?v=1718825897",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 87,
+    "title": "Camisa de Vestir de Algodón con Cuello Clásico",
+    "description": "Camisa de vestir de algodón con un diseño clásico y elegante. Ideal para eventos formales y de oficina.",
+    "price": 79.99,
+    "category": "men's clothing",
+    "image": "https://www.gef.co/cdn/shop/files/fejaz-naranja-15681-742309_015681-1_0d4e00b6-196a-4d67-a275-d7dcd287eb87.jpg?v=1721250703",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 88,
+    "title": "Aspiradora de Mano Inalámbrica",
+    "description": "Aspiradora de mano inalámbrica con potente succión y batería de larga duración. Ideal para la limpieza rápida y efectiva.",
+    "price": 89.99,
+    "category": "electronics",
+    "image": "https://s7cdn.spectrumbrands.com/~/media/LatinAmerica/BlackAndDecker/Imagenes/Producto_High_Res/Home/DustBusters/HHVJ315JDP27/HHVJ315JDP27_3.jpg?mw=450",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 89,
+    "title": "Plancha de Vapor con Suela de Cerámica",
+    "description": "Plancha de vapor con suela de cerámica para un deslizamiento suave y sin esfuerzo. Ideal para un planchado eficiente y rápido.",
+    "price": 49.99,
+    "category": "electronics",
+    "image": "https://www.homeelementsweb.com/wp-content/uploads/2021/02/plancha-vapor-caramica.jpg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 90,
+    "title": "Pulsera de Plata con Piedras pricesas",
+    "description": "Pulsera de plata con piedras pricesas incrustadas, ideal para un toque de sofisticación y elegancia en cualquier ocasión.",
+    "price": 299.99,
+    "category": "jewelery",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_833349-MCO53442438265_012023-O.webp",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 91,
+    "title": "Pendientes de Oro de 18k con Esmeraldas",
+    "description": "Pendientes de oro de 18 quilates con esmeraldas brillantes. Perfectos para ocasiones especiales y para resaltar cualquier look.",
+    "price": 799.99,
+    "category": "jewelery",
+    "image": "https://www.eljineteazul.com/wp-content/uploads/2020/08/226-410w1.jpg",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 92,
+    "title": "Leggings Deportivos de Alta Compresión",
+    "description": "Leggings deportivos con alta compresión para ofrecer soporte durante el ejercicio. Perfectos para yoga, running y otras actividades.",
+    "price": 39.99,
+    "category": "women's clothing",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_877590-MCO72901734552_112023-O.webp",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 93,
+    "title": "Jeans Ajustados con Cintura Alta",
+    "description": "Jeans ajustados con cintura alta, confeccionados para ofrecer un ajuste cómodo y estilizado. Disponibles en varios lavados.",
+    "price": 69.99,
+    "category": "women's clothing",
+    "image": "https://m.media-amazon.com/images/I/71Uimgu3WFL.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 94,
+    "title": "Traje Completo de Lana para Hombre",
+    "description": "Traje completo de lana con un ajuste elegante y moderno. Ideal para eventos formales y reuniones de negocios.",
+    "price": 499.99,
+    "category": "men's clothing",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_725574-CBT73634892185_122023-O.webp",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 95,
+    "title": "Refrigerador de Doble Puerta con Tecnología No Frost",
+    "description": "Refrigerador de doble puerta con tecnología No Frost para evitar la formación de hielo. Ideal para mantener tus alimentos frescos.",
+    "price": 799.99,
+    "category": "electronics",
+    "image": "https://www.lg.com/cac/images/refrigerador/md07536380/gallery/D-4.jpg",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 96,
+    "title": "Microondas con Función Grill y 30L de Capacidad",
+    "description": "Microondas con función grill para cocinar y dorar tus alimentos. Ideal para preparar comidas rápidas y deliciosas.",
+    "price": 149.99,
+    "category": "electronics",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUFB3EO9ZbEMIwkvXd4v7XKLs-pjDYtZjHUQ&s",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 97,
+    "title": "Anillo de Oro de 18k con Diamantes",
+    "category": "jewelery",
+    "price": 999.99,
+    "image": "https://lcjoyeros.com/wp-content/uploads/2019/02/Joyerias-en-Bogota-Anillos-Compromiso-165-COA-1-1.jpg",
+    "RATING": 4.9,
+    "rating": {
+      "rate": 4.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 98,
+    "title": "Collar de Perlas de Agua Dulce",
+    "description": "Collar de perlas de agua dulce con un diseño clásico. Ideal para eventos elegantes y como un toque de sofisticación.",
+    "price": 249.99,
+    "category": "jewelery",
+    "image": "https://carbonopuro.es/wp-content/uploads/2020/09/Collar-perla-Oro.jpg",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 99,
+    "title": "Chaqueta de Cuero Negra para Hombre",
+    "description": "Chaqueta de cuero negra para hombre, con un diseño moderno y resistente. Ideal para un estilo casual y elegante.",
+    "price": 229.99,
+    "category": "women's clothing",
+    "image": "https://acdn.mitiendanube.com/stores/934/092/products/chaqueta-cuero-chamarra-oziris-11-8fbc9670434cacb79e15494824871054-640-0.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 100,
+    "title": "Abrigo de Lana Gris para Mujer",
+    "description": "Abrigo de lana gris para mujer, con diseño elegante y cálido. Ideal para el invierno y eventos formales.",
+    "price": 349.99,
+    "category": "women's clothing",
+    "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/132037770_01/w=800,h=800,fit=pad",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 101,
+    "title": "Chaqueta de Mezclilla Azul Claro para Mujer",
+    "description": "Chaqueta de mezclilla azul claro para mujer, con un ajuste moderno y cómodo. Perfecta para un look casual.",
+    "price": 89.99,
+    "category": "women's clothing",
+    "image": "https://chevignon.vtexassets.com/arquivos/ids/1303892-800-auto?v=638194755072670000&width=800&height=auto&aspect=true",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 102,
+    "title": "Lavadora de Carga Frontal con 8kg de Capacidad",
+    "description": "Lavadora de carga frontal con capacidad para 8kg y múltiples programas de lavado. Ideal para hogares medianos.",
+    "price": 599.99,
+    "category": "electronics",
+    "image": "https://www.lg.com/cac/images/lavadoras-y-secadoras/md07579981/gallery/D_02.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 103,
+    "title": "Aspiradora Sin Cable con Batería de Larga Duración",
+    "description": "Aspiradora sin cable con batería de larga duración. Ideal para limpiar rápidamente sin enredos de cables.",
+    "price": 149.99,
+    "category": "electronics",
+    "image": "https://m.media-amazon.com/images/I/51l8N-OTbGL._AC_UF894,1000_QL80_.jpg",
+    "RATING": 4.6,
+    "rating": {
+      "rate": 4.6,
+      "count": 120
+    }
+  },
+  {
+    "id": 104,
+    "title": "Pendientes de Plata de 925 con Zafiros",
+    "description": "Pendientes de plata de 925 con zafiros brillantes. Perfectos para eventos especiales y ocasiones elegantes.",
+    "price": 299.99,
+    "category": "jewelery",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_907116-MCO54974158776_042023-O.webp",
+    "RATING": 4.8,
+    "rating": {
+      "rate": 4.8,
+      "count": 120
+    }
+  },
+  {
+    "id": 105,
+    "title": "Pulsera de Oro Rosa con Detalles de Cristal",
+    "description": "Pulsera de oro rosa con detalles de cristal para un toque de elegancia y estilo. Ideal para eventos formales y casuales.",
+    "price": 199.99,
+    "category": "jewelery",
+    "image": "https://i.ebayimg.com/thumbs/images/g/EPgAAOSwQvZmg0Af/s-l1200.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 106,
+    "title": "Chaqueta de Cuero Vintage",
+    "description": "Chaqueta de cuero genuino con diseño vintage y detalles en metal. Perfecta para cualquier ocasión.",
+    "price": 199.99,
+    "category": "women's clothing",
+    "image": "https://acdn.mitiendanube.com/stores/001/400/105/products/img-20240214-wa0042-d111d21b3b9d8a17bf17079605547499-480-0.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  },
+  {
+    "id": 107,
+    "title": "Chaqueta de Cuero Vintage",
+    "description": "Chaqueta de cuero genuino con diseño vintage y detalles en metal. Perfecta para cualquier ocasión.",
+    "price": 199.99,
+    "category": "men's clothing",
+    "image": "https://m.media-amazon.com/images/I/71tEWnZCL9L._AC_UY1000_.jpg",
+    "RATING": 4.7,
+    "rating": {
+      "rate": 4.7,
+      "count": 120
+    }
+  }
+]
