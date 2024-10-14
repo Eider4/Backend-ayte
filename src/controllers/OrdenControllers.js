@@ -1,15 +1,10 @@
-const {
-  GmailOrdenAceptada,
-} = require("../Funciones/EnviarEmail/GmailOrdenAceptada");
-const {
-  GmailOrdenPendiente,
-} = require("../Funciones/EnviarEmail/GmailOrdenPendiente");
-const {
-  GmailOrdenRechazada,
-} = require("../Funciones/EnviarEmail/GmailOrdenRechazada");
-const Orden = require("../models/Ordenes");
+import { GmailOrdenAceptada } from "../Funciones/EnviarEmail/GmailOrdenAceptada";
+import { GmailOrdenPendiente } from "../Funciones/EnviarEmail/GmailOrdenPendiente";
+import { GmailOrdenRechazada } from "../Funciones/EnviarEmail/GmailOrdenRechazada";
 
-const ordenGet = async (req, res) => {
+import Orden from "../models/Ordenes";
+
+export const ordenGet = async (req, res) => {
   try {
     const orden = await Orden.findAll();
     res.json(orden);
@@ -17,7 +12,7 @@ const ordenGet = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-const ordenGetById = async (req, res) => {
+export const ordenGetById = async (req, res) => {
   const { uuid_orden } = req.params;
   try {
     const orden = await Orden.findByPk(uuid_orden);
@@ -27,7 +22,7 @@ const ordenGetById = async (req, res) => {
   }
 };
 
-const ordenGetByIdUsuario = async (req, res) => {
+export const ordenGetByIdUsuario = async (req, res) => {
   const { uid_usuario } = req.params;
   try {
     const orden = await Orden.findAll({
@@ -41,7 +36,7 @@ const ordenGetByIdUsuario = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const ordenGetByIdUsuarioAndEstado = async (req, res) => {
+export const ordenGetByIdUsuarioAndEstado = async (req, res) => {
   const { uid_usuario, estado_de_orden } = req.params;
   try {
     const orden = await Orden.findAll({
@@ -58,7 +53,7 @@ const ordenGetByIdUsuarioAndEstado = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const ordenGetByIdUsuarioAndEstad = async (req, res) => {
+export const ordenGetByIdUsuarioAndEstad = async (req, res) => {
   const { uid_usuario, estado_de_orden } = req.params;
 
   try {
@@ -80,7 +75,7 @@ const ordenGetByIdUsuarioAndEstad = async (req, res) => {
 };
 
 // http://localhost:1234/ordenes/id_u/46
-const ordenGetByEstado = async (req, res) => {
+export const ordenGetByEstado = async (req, res) => {
   const { estado_de_orden } = req.params;
   try {
     const orden = await Orden.findAll({
@@ -95,7 +90,7 @@ const ordenGetByEstado = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const ordenPost = async (req, res) => {
+export const ordenPost = async (req, res) => {
   const {
     uuid_orden,
     estado_de_orden,
@@ -128,7 +123,7 @@ const ordenPost = async (req, res) => {
 // 1 - acepatado: El pedido está siendo procesado o preparado.
 // 2 - Rechazado: El pedido ha sido Rechazado por el vendedor.
 
-const ordenPut = async (req, res) => {
+export const ordenPut = async (req, res) => {
   const { uuid_orden } = req.params;
   const { estado_de_orden, id_productos, direccion_id_usuario } = req.body;
   console.log(req.body);
@@ -157,7 +152,7 @@ const ordenPut = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-const ordenDelete = async (req, res) => {
+export const ordenDelete = async (req, res) => {
   const { uuid_orden } = req.params;
   try {
     const orden = await Orden.findByPk(uuid_orden);
@@ -173,13 +168,13 @@ const ordenDelete = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-module.exports = {
-  ordenGet,
-  ordenPost,
-  ordenPut,
-  ordenGetById,
-  ordenGetByIdUsuario,
-  ordenGetByEstado,
-  ordenDelete,
-  ordenGetByIdUsuarioAndEstado,
-};
+// module.exports = {
+//   ordenGet,
+//   ordenPost,
+//   ordenPut,
+//   ordenGetById,
+//   ordenGetByIdUsuario,
+//   ordenGetByEstado,
+//   ordenDelete,
+//   ordenGetByIdUsuarioAndEstado,
+// };

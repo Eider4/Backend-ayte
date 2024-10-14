@@ -13,12 +13,13 @@
 // };
 
 // module.exports= {Conexion_BD, sequelize}
-const { Sequelize } = require("sequelize");
+// const { Sequelize } = require("sequelize");
+import { Sequelize } from "sequelize";
 
 const proyectoAyte_URL =
   "postgres://default:0HLr6pkGyCge@ep-quiet-hat-a4lxut3m-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require";
 
-const sequelize = new Sequelize(proyectoAyte_URL, {
+export const sequelize = new Sequelize(proyectoAyte_URL, {
   dialect: "postgres",
   logging: false,
   dialectOptions: {
@@ -29,11 +30,11 @@ const sequelize = new Sequelize(proyectoAyte_URL, {
   },
 });
 
-const Conexion_BD = () => {
+export const Conexion_BD = () => {
   sequelize
     .sync()
     .then(() => console.log("Conectando a la base de datos y sincronizando"))
     .catch((err) => console.log("Error al conectar a la base de datos: ", err));
 };
 
-module.exports = { Conexion_BD, sequelize };
+// export { Conexion_BD, sequelize };

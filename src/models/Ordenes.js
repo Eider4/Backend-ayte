@@ -1,5 +1,5 @@
-const { DataTypes } = require("sequelize");
-const { sequelize } = require("../config/database");
+import { DataTypes } from "sequelize";
+import { sequelize } from "../config/database";
 
 const Orden = sequelize.define(
   "orden",
@@ -42,4 +42,4 @@ const Orden = sequelize.define(
   }
 );
 
-module.exports = Orden;
+export default Orden;

@@ -1,10 +1,14 @@
-const express = require('express')
-const { VentasGet, VentasPost, VentasGetById } = require('../controllers/VentasControllers')
+import express from "express";
+import {
+  VentasGet,
+  VentasPost,
+  VentasGetById,
+} from "../controllers/VentasControllers";
 
-const router = express.Router()
+const router = express.Router();
 
-router.get('/', VentasGet)
-router.post('/', VentasPost)
-router.get('/:uuid_venta', VentasGetById)
+router.get("/", VentasGet);
+router.post("/", VentasPost);
+router.get("/:uuid_venta", VentasGetById);
 
-module.exports = router
+export default router;

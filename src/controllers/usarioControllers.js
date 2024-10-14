@@ -1,31 +1,29 @@
-const {EnviarEmailVerificacion} = require("../Funciones/EnviarEmail/EnviarEmailVerificacion");
-const {enviarCodigoAccesoAdministrador} = require("../Funciones/EnviarEmail/EnviarEmailVerificacionAdministrador");
-const Usuario = require("../models/Usuarios");
+import { EnviarEmailVerificacion } from "../Funciones/EnviarEmail/EnviarEmailVerificacion";
+import { enviarCodigoAccesoAdministrador } from "../Funciones/EnviarEmail/EnviarEmailVerificacionAdministrador";
+import Usuario from "../models/Usuarios";
 
-const enviarCorreoVerificacion = (req, res) => {
+export const enviarCorreoVerificacion = (req, res) => {
   try {
     const { correo, codigo, nombre } = req.body;
     console.log(req.body);
     EnviarEmailVerificacion(correo, codigo, nombre);
-
   } catch (error) {
     console.log("error al enviar correo de verificacion");
     res.status(500).json({ error: error.message });
   }
 };
-const EnviarCodigoAccesoAdministrador = (req, res) => {
+export const EnviarCodigoAccesoAdministrador = (req, res) => {
   try {
     const { codigo } = req.body;
     console.log(req.body);
     enviarCodigoAccesoAdministrador(codigo);
-
   } catch (error) {
     console.log("error al enviar correo de verificacion de administracion");
     res.status(500).json({ error: error.message });
   }
 };
 
-const UsuariosGet = async (req, res) => {
+export const UsuariosGet = async (req, res) => {
   try {
     const users = await Usuario.findAll();
     res.json(users);
@@ -34,7 +32,7 @@ const UsuariosGet = async (req, res) => {
   }
 };
 //http://localhost:1234/usuarios/16
-const UsuariosGetByUid = async (req, res) => {
+export const UsuariosGetByUid = async (req, res) => {
   const { uid_usuario } = req.params;
   try {
     const usuario = await Usuario.findOne({
@@ -50,7 +48,7 @@ const UsuariosGetByUid = async (req, res) => {
   }
 }; //http://localhost:1234/usuarios/16
 
-const UsuariosPost = async (req, res) => {
+export const UsuariosPost = async (req, res) => {
   const {
     uid_usuario,
     nombre,
@@ -79,7 +77,7 @@ const UsuariosPost = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 }; // http://localhost:1234/usuarios
-const UsuariosPut = async (req, res) => {
+export const UsuariosPut = async (req, res) => {
   const { uid_usuario } = req.params;
   const {
     nombre,
@@ -107,7 +105,7 @@ const UsuariosPut = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 }; // http://localhost:1234/usuarios/1
-const UsuarioDelete = async (req, res) => {
+export const UsuarioDelete = async (req, res) => {
   const { uid_usuario } = req.params;
   try {
     const usuario = await Usuario.findByPk(uid_usuario);
@@ -122,12 +120,12 @@ const UsuarioDelete = async (req, res) => {
   }
 }; // http://localhost:1234/usuarios/4
 
-module.exports = {
-  UsuariosGet,
-  UsuariosPost,
-  UsuariosPut,
-  UsuarioDelete,
-  UsuariosGetByUid,
-  enviarCorreoVerificacion,
-  EnviarCodigoAccesoAdministrador,
-};
+// module.exports = {
+//   UsuariosGet,
+//   UsuariosPost,
+//   UsuariosPut,
+//   UsuarioDelete,
+//   UsuariosGetByUid,
+//   enviarCorreoVerificacion,
+//   EnviarCodigoAccesoAdministrador,
+// };

@@ -1,6 +1,6 @@
-const transporter = require("../../config/nodemailler");
+import transporter from "../../config/nodemailler";
 
-async function GmailOrdenPendiente(orden, newOrden) {
+export async function GmailOrdenPendiente(orden, newOrden) {
   const { estado_de_orden, ProductosCompletos, Usuario: usuario } = orden;
 
   const totalPrice = ProductosCompletos.reduce(
@@ -181,5 +181,4 @@ async function GmailOrdenPendiente(orden, newOrden) {
   console.log("Mensaje enviado: ", info.messageId);
 }
 
-module.exports = { GmailOrdenPendiente };
-
+// export { GmailOrdenPendiente };

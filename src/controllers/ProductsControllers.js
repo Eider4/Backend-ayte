@@ -1,6 +1,6 @@
-const Products = require("../../Productos.json");
+import Products from "../../Productos.json";
 
-const GetProductos = async (req, res) => {
+export const GetProductos = async (req, res) => {
   try {
     console.log("antes");
     res.json(Products);
@@ -9,7 +9,7 @@ const GetProductos = async (req, res) => {
   }
 };
 
-const GetProductosById = async (req, res) => {
+export const GetProductosById = async (req, res) => {
   try {
     const { id } = req.params;
     const ProductFind = Products.find((product) => product.id == id);
@@ -19,4 +19,4 @@ const GetProductosById = async (req, res) => {
   }
 };
 
-module.exports = { GetProductos, GetProductosById };
+// module.exports = { GetProductos, GetProductosById };

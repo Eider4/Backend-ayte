@@ -1,5 +1,4 @@
-const nodemailer = require("nodemailer");
-
+import { nodemailer } from "nodemailer";
 const transporter = nodemailer.createTransport({
   host: "smtp.office365.com",
   port: 587,
@@ -10,4 +9,4 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-module.exports = transporter
+export default transporter;

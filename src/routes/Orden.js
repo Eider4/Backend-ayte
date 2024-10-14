@@ -1,5 +1,5 @@
-const express = require("express");
-const {
+import express from "express";
+import {
   ordenGet,
   ordenPut,
   ordenPost,
@@ -8,7 +8,7 @@ const {
   ordenGetByEstado,
   ordenGetByIdUsuario,
   ordenGetByIdUsuarioAndEstado,
-} = require("../controllers/OrdenControllers");
+} from "../controllers/OrdenControllers";
 
 const router = express.Router();
 
@@ -19,6 +19,9 @@ router.get("/:uuid_orden", ordenGetById);
 router.delete("/:uuid_orden", ordenDelete);
 router.get("/id_u/:uid_usuario", ordenGetByIdUsuario);
 router.get("/estado_de_orden/:estado_de_orden", ordenGetByEstado);
-router.get("/estado_de_orden/:estado_de_orden/uid_usuario/:uid_usuario", ordenGetByIdUsuarioAndEstado);
+router.get(
+  "/estado_de_orden/:estado_de_orden/uid_usuario/:uid_usuario",
+  ordenGetByIdUsuarioAndEstado
+);
 
-module.exports = router;
+export default router;

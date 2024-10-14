@@ -1,12 +1,12 @@
-const cors = require("cors");
-const express = require("express");
-const bodyParser = require("body-parser");
-const { Conexion_BD } = require("./config/database");
-const routerUsuarios = require("./routes/usuarios");
-const routerCarCompras = require("./routes/CarCompras");
-const routerOrden = require("./routes/Orden");
-const routerVentas = require("./routes/Ventas");
-const routerProducts = require("./routes/Products");
+import cors from "cors";
+import express from "express";
+import bodyParser from "body-parser";
+import { Conexion_BD } from "./src/config/database.js";
+import routerUsuarios from "./src/routes/usuarios.js";
+import routerCarCompras from "./src/routes/CarCompras.js";
+import routerOrden from "./src/routes/Orden.js";
+import routerVentas from "./src/routes/Ventas.js";
+import routerProducts from "./src/routes/Products.js";
 const port = process.env.PORT || 1234;
 
 Conexion_BD();
@@ -15,7 +15,9 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
-
+app.use("/", (_, res) => {
+  res.send(" Hello world ");
+});
 app.use("/usuarios", routerUsuarios);
 app.use("/car-compras", routerCarCompras);
 app.use("/ordenes", routerOrden);

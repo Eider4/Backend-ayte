@@ -1,6 +1,6 @@
-const Venta = require("../models/Ventas");
+import Venta from "../models/Ventas";
 
-const VentasGet = async (req, res) => {
+export const VentasGet = async (req, res) => {
   try {
     const venta = await Venta.findAll();
     res.json(venta);
@@ -8,7 +8,7 @@ const VentasGet = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const VentasGetById = async (req, res) => {
+export const VentasGetById = async (req, res) => {
   const { uuid_venta } = req.params;
   try {
     const venta = await Venta.findByPk(uuid_venta);
@@ -17,7 +17,7 @@ const VentasGetById = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const VentasPost = async (req, res) => {
+export const VentasPost = async (req, res) => {
   const { uuid_orden, preciototal, uuid_venta } = req.body;
   try {
     const newVenta = await Venta.create({
@@ -31,4 +31,4 @@ const VentasPost = async (req, res) => {
   }
 };
 
-module.exports = { VentasGet, VentasPost, VentasGetById };
+// module.exports = { VentasGet, VentasPost, VentasGetById };

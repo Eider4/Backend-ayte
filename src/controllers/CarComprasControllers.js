@@ -1,6 +1,5 @@
-const CarritoCompras = require("../models/CarCompras");
-
-const CarritoComprasGet = async (req, res) => {
+import CarritoCompras from "../models/CarCompras";
+export const CarritoComprasGet = async (req, res) => {
   try {
     const Carrito = await CarritoCompras.findAll();
     res.json(Carrito);
@@ -8,7 +7,7 @@ const CarritoComprasGet = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const CarritoComprasGetById = async (req, res) => {
+export const CarritoComprasGetById = async (req, res) => {
   const { uuid_carritocompras } = req.params;
   try {
     const Carrito = await CarritoCompras.findByPk(uuid_carritocompras);
@@ -17,7 +16,7 @@ const CarritoComprasGetById = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const CarritoComprasGetUsuario = async (req, res) => {
+export const CarritoComprasGetUsuario = async (req, res) => {
   const { uid_usuario } = req.params;
   try {
     const carrito = await CarritoCompras.findOne({
@@ -32,7 +31,7 @@ const CarritoComprasGetUsuario = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-const CarritoComprasPost = async (req, res) => {
+export const CarritoComprasPost = async (req, res) => {
   const { id_productos, uid_usuario, uuid_carritocompras } = req.body;
   try {
     const newCarrito = await CarritoCompras.create({
@@ -45,7 +44,7 @@ const CarritoComprasPost = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
-const CarritoComprasPut = async (req, res) => {
+export const CarritoComprasPut = async (req, res) => {
   const { uuid_carritocompras } = req.params;
   const { id_productos } = req.body;
   try {
@@ -61,7 +60,7 @@ const CarritoComprasPut = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
-const CarritoComprasDelete = async (req, res) => {
+export const CarritoComprasDelete = async (req, res) => {
   const { uuid_carrito } = req.params;
   try {
     const Carrito = await CarritoCompras.findByPk(uuid_carrito);
@@ -75,11 +74,11 @@ const CarritoComprasDelete = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-module.exports = {
-  CarritoComprasGet,
-  CarritoComprasPost,
-  CarritoComprasPut,
-  CarritoComprasDelete,
-  CarritoComprasGetById,
-  CarritoComprasGetUsuario,
-};
+// module.exports = {
+//   CarritoComprasGet,
+//   CarritoComprasPost,
+//   CarritoComprasPut,
+//   CarritoComprasDelete,
+//   CarritoComprasGetById,
+//   CarritoComprasGetUsuario,
+// };

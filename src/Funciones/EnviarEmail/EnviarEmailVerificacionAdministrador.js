@@ -1,6 +1,6 @@
-const transporter = require("../../config/nodemailler");
+import transporter from "../../config/nodemailler";
 
-async function enviarCodigoAccesoAdministrador(codigo) {
+export async function enviarCodigoAccesoAdministrador(codigo) {
   try {
     const nombreAdministrador = "Eider";
     const info = await transporter.sendMail({
@@ -29,4 +29,4 @@ async function enviarCodigoAccesoAdministrador(codigo) {
   }
 }
 
-module.exports = { enviarCodigoAccesoAdministrador };
+// export { enviarCodigoAccesoAdministrador };

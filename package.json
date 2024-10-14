@@ -2,9 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "proyecto final (ayte). Se trata de un proyecto de e-commers en el cual nos basaremos en fakestoreapi para realizar el proyecto",
-  "main": "src/index.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "dev": "node index.js",
+    "start": "nodemon index.js"
   },
   "author": "Eider Andres Urrego",
   "license": "ISC",

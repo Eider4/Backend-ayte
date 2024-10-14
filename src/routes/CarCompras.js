@@ -1,12 +1,12 @@
-const express = require("express");
-const {
+import express from "express";
+import {
   CarritoComprasGet,
   CarritoComprasPost,
   CarritoComprasPut,
   CarritoComprasDelete,
   CarritoComprasGetById,
   CarritoComprasGetUsuario,
-} = require("../controllers/CarComprasControllers");
+} from "../controllers/CarComprasControllers";
 
 const router = express.Router();
 
@@ -17,4 +17,4 @@ router.put("/:uuid_carritocompras", CarritoComprasPut);
 router.delete("/:uuid_carritocompras", CarritoComprasDelete);
 router.get("/id_u/:uid_usuario", CarritoComprasGetUsuario);
 
-module.exports = router;
+export default router;

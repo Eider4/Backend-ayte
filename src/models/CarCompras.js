@@ -1,5 +1,6 @@
-const { DataTypes } = require("sequelize");
-const { sequelize } = require("../config/database");
+import { DataTypes } from "sequelize";
+import { sequelize } from "../config/database";
+import { defaults } from "json-server";
 
 const CarritoCompras = sequelize.define(
   "CarCompras",
@@ -30,4 +31,4 @@ const CarritoCompras = sequelize.define(
   }
 );
 
-module.exports = CarritoCompras;
+export default CarritoCompras;

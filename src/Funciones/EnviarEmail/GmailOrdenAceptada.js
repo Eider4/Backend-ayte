@@ -1,7 +1,7 @@
-const transporter = require("../../config/nodemailler");
-const usuario = require("../../models/Usuarios");
+import transporter from "../../config/nodemailler";
+import usuario from "../../models/Usuarios";
 
-async function GmailOrdenAceptada(body, orden) {
+export async function GmailOrdenAceptada(body, orden) {
   const { Productos } = body;
   const { uid_usuario } = orden;
   const { dataValues: Usuario } = await usuario.findOne({
@@ -171,5 +171,4 @@ async function GmailOrdenAceptada(body, orden) {
 
   console.log("Mensaje enviado: ", info.messageId);
 }
-
-module.exports = { GmailOrdenAceptada };
+// export { GmailOrdenAceptada };

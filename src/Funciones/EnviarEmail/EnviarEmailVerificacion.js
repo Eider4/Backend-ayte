@@ -1,4 +1,4 @@
-const transporter = require("../../config/nodemailler");
+import transporter from "../../config/nodemailler";
 
 async function EnviarEmailVerificacion(correo, codigo, nombre) {
   try {
@@ -27,4 +27,4 @@ async function EnviarEmailVerificacion(correo, codigo, nombre) {
   }
 }
 
-module.exports = { EnviarEmailVerificacion };
+export { EnviarEmailVerificacion };
