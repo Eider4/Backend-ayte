@@ -1,8 +1,8 @@
 const cors = require("cors");
 const express = require("express");
 const bodyParser = require("body-parser");
-const routerUsuarios = require("./routes/usuarios");
 const { Conexion_BD } = require("./config/database");
+const routerUsuarios = require("./routes/usuarios");
 const routerCarCompras = require("./routes/CarCompras");
 const routerOrden = require("./routes/Orden");
 const routerVentas = require("./routes/Ventas");
