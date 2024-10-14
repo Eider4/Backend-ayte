@@ -7,7 +7,7 @@ const routerCarCompras = require("./routes/CarCompras");
 const routerOrden = require("./routes/Orden");
 const routerVentas = require("./routes/Ventas");
 const routerProducts = require("./routes/Products");
-const port = 1234;
+const port = process.env.PORT || 1234;
 
 Conexion_BD();
 const app = express();
